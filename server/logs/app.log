@@ -7481,3 +7481,5 @@
 [2017-08-08 13:52:19.064] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/department/list HTTP/1.1" 200 26 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
 [2017-08-08 13:52:19.128] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 262 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
 [2017-08-08 13:52:19.971] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 309 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+[2017-08-08 13:55:09.006] [INFO] startup - logs config finished!
+[2017-08-08 13:55:09.008] [INFO] app - --------step into koa---------

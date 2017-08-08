@@ -25,3 +25,15 @@ docker-compose运行
 ```
 docker-compose up -d
 ```
+
+#调试/开发
+server
+```
+cd server
+npm run dev
+```
+
+client
+```
+npm run dev
+```
