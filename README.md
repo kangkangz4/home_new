@@ -26,7 +26,8 @@ docker-compose运行
 docker-compose up -d
 ```
 
-#调试/开发
+# 调试/开发
+
 server
 ```
 cd server
