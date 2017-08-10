@@ -6,8 +6,22 @@ import { JsonError } from '../../error'
 
 export default (router => {
 	router
+		// .get('/menus/tree', async (ctx) =>{
+		// 	try{
+		// 		//查询所有菜单
+		// 		const menus = await Menu.find({parent: {$exists: false}}).populate('children').sort('order').exec();
+		// 		ctx.body = {
+		// 			code: 10000,
+		// 			result: menus
+		// 		}
+		// 	}catch(error){
+		// 		console.log(error);
+		// 		throw new JsonError(20005, '树级菜单获取失败')
+		// 	}
+		// })
 		.get('/menus/list', async (ctx) => {
 			try{
+				
 				const menus = await Menu.find();
 				ctx.body = {
 					code: 10000,

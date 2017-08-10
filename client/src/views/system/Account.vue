@@ -180,7 +180,7 @@
 
 <script>
 import util from '../../common/js/util'
-import { listPageAccount, removeAccount, editAccount, addAccount, batchRemoveAccount, resetPass } from '../../api/api';
+import { listPageAccount, removeAccount, editAccount, addAccount, batchRemoveAccount, resetPass } from '../../api/api'
 
 export default {
 	data(){

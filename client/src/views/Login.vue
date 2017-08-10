@@ -63,7 +63,6 @@
           this.logining = true;
           const para = Object.assign({}, this.loginForm);
           requestLogin(para).then(res => {
-            // console.log(res);
             this.logining = false;
             const result = res.result;
             this.setSession(result);
@@ -74,7 +73,7 @@
               this.$router.addRoutes(this.menuitems);
                 // this.loadRoutes();
               // }
-              this.$router.push({ path: '/dashboard'});
+              this.$router.push({ path: '/menu'});
             });
               // let { access_token, account } = res;
               // if (!access_token) {

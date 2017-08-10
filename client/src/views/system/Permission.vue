@@ -34,7 +34,7 @@
 		<!--编辑界面-->
 		<el-dialog title="编辑" v-model="editFormVisible" :close-on-click-modal="false">
 			<el-form :model="editForm" label-width="80px" :rules="editFormRules" ref="editForm">
-				<el-form-item label="角色名称" prop="name">
+				<el-form-item label="权限名称" prop="name">
 					<el-input v-model="editForm.name" auto-complete="off"></el-input>
 				</el-form-item>
 				<el-form-item label="角色" prop="role">
@@ -52,7 +52,8 @@
 				</el-form-item>
 				<el-form-item label="操作">
 					<div v-for="(menu, index) in editMenus" style="border-top-style: solid; border-top-width: 1px">
-						<div style="font-weight: bold">{{menu.name}}</div>
+						<div style="font-weight: bold; float:left; width:100px;">{{menu.name}}</div>
+						<el-checkbox v-model="menu.allchecked" @change="handleCheckAllChange(menu)">全选</el-checkbox>
 						<div v-for="child in menu.children">
 							<div style="float: left; width:100px;">{{child.name}}</div>
 							<el-checkbox-group v-model="child.permissions">
@@ -74,7 +75,7 @@
 		<!--新增界面-->
 		<el-dialog title="新增" v-model="addFormVisible" :close-on-click-modal="false">
 			<el-form :model="addForm" label-width="80px" :rules="addFormRules" ref="addForm">
-				<el-form-item label="角色名称" prop="name">
+				<el-form-item label="权限名称" prop="name">
 					<el-input v-model="addForm.name" auto-complete="off"></el-input>
 				</el-form-item>
 				<el-form-item label="角色" prop="role">
@@ -92,7 +93,8 @@
 				</el-form-item>
 				<el-form-item label="操作">
 					<div v-for="(menu, index) in addMenus" style="border-top-style: solid; border-top-width: 1px">
-						<div style="font-weight: bold">{{menu.name}}</div>
+						<div style="font-weight: bold; float:left; width:100px;">{{menu.name}}</div>
+						<el-checkbox v-model="menu.allchecked" @change="handleCheckAllChange(menu)">全选</el-checkbox>
 						<div v-for="child in menu.children">
 							<div style="float: left; width:100px;">{{child.name}}</div>
 							<el-checkbox-group v-model="child.permissions">
@@ -184,6 +186,16 @@ export default {
 			})
 			return permissions;
 		},
+		getAllChecked(menu){
+			let allchecked = true;
+			_.each(menu.children, (child)=>{
+				//没有全部选中
+				if(child.permissions.length !== 4){
+					allchecked = false;
+				}
+			})
+			return allchecked;
+		},
 		//编辑操作
 		editPermission(menus, permissions){
 			const menus_ = _.cloneDeep(menus);
@@ -196,6 +208,7 @@ export default {
 						child.permissions = [];
 					}
 				})
+				menu.allchecked = this.getAllChecked(menu);
 			})
 			this.editMenus = menus_;
 		},
@@ -203,6 +216,7 @@ export default {
 		resetMenus(menus){
 			const menus_ = _.cloneDeep(menus)
 			_.each(menus_, (menu)=>{
+				menu.allchecked = false;
 				_.each(menu.children, (item)=>{
 					item.permissions = [];
 				})
@@ -233,7 +247,14 @@ export default {
 			this.editPermission(this.sortMenus, row.permissions);
 		},
 		handleDel(index, row){
-
+			this.$confirm('确认删除该记录吗？', '提示', {}).then(()=>{
+				removePermission(row._id).then((res)=>{
+					this.$message.success(res.message);
+					this.listPermission();
+				}, (error)=>{
+					this.$message.error(error);
+				})
+			})
 		},
 		handleAdd(){
 			this.resetMenus(this.addMenus);
@@ -283,6 +304,16 @@ export default {
 					this.editLoading = false;
 					this.$message.error(error);
 				})
+			})
+		},
+		//全选按钮
+		handleCheckAllChange(menu){
+			_.each(menu.children, (child)=>{
+				if(menu.allchecked){
+					child.permissions = ['查看','创建','更新','删除'];
+				}else{
+					child.permissions = [];
+				}
 			})
 		}
 	},

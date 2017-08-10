@@ -61,11 +61,11 @@ export default {
         const temp = _.cloneDeep(array);
         let dist = [];
         _.each(temp, (m)=>{
-            if(m.parent.length == 0){
+            if(!m.parent){
                 dist.push(m);
             }
             _.each(temp, (n)=>{
-                if(n.parent.toString() === m._id.toString()){
+                if(n.parent && n.parent.toString() === m._id.toString()){
                     if(!m.children){
                         m.children = [];
                     }

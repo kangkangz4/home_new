@@ -20,8 +20,11 @@ const menuSchema = mongoose.Schema({
 		type: Boolean,
 		default: false
 	},
-	parent:String,
-	order:Number //排序
+	order:Number, //排序
+	parent:{
+		type: ObjectId,
+		ref: 'Menu'
+	}
 }, {
 		versionKey: false,
 		timestamps: {
