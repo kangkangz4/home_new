@@ -16,7 +16,7 @@
 </template>
 
 <script>
-  import { requestLogin, getMenus } from '../api/api';
+  import { requestLogin, getMenusWithPermission } from '../api/api';
   import { mapGetters, mapActions } from 'vuex';
   import NProgress from 'nprogress'
 
@@ -67,13 +67,13 @@
             const result = res.result;
             this.setSession(result);
             //获取菜单
-            getMenus().then((res) =>{
+            getMenusWithPermission().then((res) =>{
               this.setMenu(res.result);
               // if(!this.isLoadRoutes){
               this.$router.addRoutes(this.menuitems);
                 // this.loadRoutes();
               // }
-              this.$router.push({ path: '/menu'});
+              this.$router.push({ path: '/'});
             });
               // let { access_token, account } = res;
               // if (!access_token) {

@@ -64,6 +64,9 @@ export const editUser = params => { return axios.post(`${base}/user/edit`, param
 export const addUser = params => { return axios.post(`${base}/user/add`, params) }
 
 /*--  菜单 --*/
+//权限权限获取的菜单
+export const getMenusWithPermission = () => { return axios.get(`${base}/menus/listWithPermission`) }
+
 export const getMenus = () => { return axios.get(`${base}/menus/list`) }
 
 export const addMenu = params => { return axios.put(`${base}/menus/add`, params) }

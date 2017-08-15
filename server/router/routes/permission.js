@@ -2,9 +2,21 @@
 
 import Permission from '../../model/permission'
 import { JsonError } from '../../error'
+import { isBearerAuthenticated } from '../../auth'
 
 export default (router=>{
 	router
+		// .post('/permission/user',isBearerAuthenticated(), async (ctx)=>{
+		// 	try{
+		// 		console.log(ctx.state.user);
+		// 		ctx.body = {
+		// 			code: 10000
+		// 		}
+		// 	}catch(error){
+		// 		console.log(error)
+		// 		throw new JsonError(50005, '获取用户权限失败')
+		// 	}
+		// })
 		.post('/permission/list', async (ctx)=>{
 			try{
 				const {name} = ctx.request.body;

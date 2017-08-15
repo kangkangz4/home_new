@@ -11,6 +11,7 @@ const permissionSchema = mongoose.Schema({
 		type:ObjectId,
 		ref: 'role'
 	},
+	isDelete:Boolean,
 	permissions:[]
 },{
 		versionKey: false,

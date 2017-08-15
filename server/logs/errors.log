@@ -1156,3 +1156,49 @@
 [2017-08-07 15:00:26.925] [ERROR] http - ::1 - - "GET /api/permission/list HTTP/1.1" 405 - "" "PostmanRuntime/6.1.6"
 [2017-08-07 15:07:55.596] [ERROR] http - ::1 - - "POST /api/permission/add HTTP/1.1" 405 - "" "PostmanRuntime/6.1.6"
 [2017-08-10 12:59:39.749] [ERROR] http - ::1 - - "GET /api/menu/list HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 11:43:56.508] [ERROR] http - ::1 - - "GET /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 11:44:59.909] [ERROR] http - ::1 - - "GET /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 11:45:18.202] [ERROR] http - ::1 - - "GET /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 11:45:50.017] [ERROR] http - ::1 - - "POST /api/user/list HTTP/1.1" 401 12 "" "PostmanRuntime/6.1.6"
+[2017-08-15 11:46:08.258] [ERROR] http - ::1 - - "POST /api/user/list HTTP/1.1" 401 12 "" "PostmanRuntime/6.1.6"
+[2017-08-15 11:46:44.107] [ERROR] http - ::1 - - "POST /api/user/list HTTP/1.1" 401 12 "" "PostmanRuntime/6.1.6"
+[2017-08-15 11:50:31.751] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 11:51:46.558] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 11:53:44.467] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 11:53:53.441] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 11:59:59.129] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 12:05:37.772] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 401 12 "" "PostmanRuntime/6.1.6"
+[2017-08-15 12:55:42.966] [ERROR] app - TypeError: (intermediate value).toObject is not a function
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:22:66
+[2017-08-15 12:55:42.981] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 13:00:23.538] [ERROR] app - TypeError: (intermediate value).toObject is not a function
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:23:70
+[2017-08-15 13:00:23.546] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 13:01:13.341] [ERROR] app - TypeError: permission.toObject is not a function
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:24:31
+[2017-08-15 13:01:13.351] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 13:05:09.823] [ERROR] app - TypeError: Cannot read property 'toObject' of undefined
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:25:25
+[2017-08-15 13:05:09.851] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 13:06:01.057] [ERROR] app - TypeError: permission.toObject is not a function
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:24:28
+[2017-08-15 13:06:01.070] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 13:08:16.916] [ERROR] app - TypeError: permission.permissions.toArray is not a function
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:24:48
+[2017-08-15 13:08:16.927] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 13:16:08.972] [ERROR] app - TypeError: account.toObject is not a function
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:29:30
+[2017-08-15 13:16:08.983] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 13:35:55.693] [ERROR] app - TypeError: permissions_[_i].permissions.toJSON is not a function
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:27:86
+[2017-08-15 13:35:55.707] [ERROR] http - ::1 - - "POST /api/permission/user HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 13:53:54.605] [ERROR] http - ::1 - - "GET /api/menu/listWithPermission HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 13:54:14.512] [ERROR] http - ::1 - - "GET /api/menu/listWithPermission HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 13:54:33.920] [ERROR] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 13:57:33.956] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/menu.js:36:11
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '菜单获取失败', code: 20005 }
+[2017-08-15 13:59:52.652] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/menu.js:36:11 message: '菜单获取失败', code: 20005 }

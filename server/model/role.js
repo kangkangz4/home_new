@@ -10,6 +10,7 @@ const roleSchema = mongoose.Schema({
 		unique: true
 	},
 	order: Number,
+	isDelete:Boolean,
 	accounts:[{
 		type: ObjectId,
 		ref: 'Account'

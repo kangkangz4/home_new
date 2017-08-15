@@ -3,6 +3,28 @@
 import Menu from '../../model/menu'
 // import _ from 'lodash'
 import { JsonError } from '../../error'
+import { isBearerAuthenticated } from '../../auth'
+
+/**
+ * 判断当前菜单是否有权限
+ * @param  {[type]}  menu        [description]
+ * @param  {[type]}  permissions [description]
+ * @return {Boolean}             [description]
+ */
+function isMenuHasPermission(menu, permissions){
+	//判断是否为根目录,根目录所有用户都有权限
+	if(!menu.parent){
+		return true;
+	}
+	for (var i = 0; i < permissions.length; i++) {
+		console.log(permissions[i].permissions.indexOf('查看'));
+		if(menu.shortname == permissions[i].name && permissions[i].permissions.indexOf('查看') != -1){
+			return true;
+		}
+	}	
+	return false;
+}
+
 
 export default (router => {
 	router
@@ -19,6 +41,30 @@ export default (router => {
 		// 		throw new JsonError(20005, '树级菜单获取失败')
 		// 	}
 		// })
+		//根据用户权限返回相关菜单
+		.get('/menus/listWithPermission', isBearerAuthenticated(), async (ctx) =>{
+			try{
+				//获取用户权限
+				const permissions = ctx.state.user.permissions;
+				console.log(permissions);
+				//查询所有菜单
+				const menus_ = await Menu.find();
+				let menus = [];
+				for (let i = 0; i <menus_.length; i++) {
+					const isHas = isMenuHasPermission(menus_[i], permissions);
+					if(isHas){
+						menus.push(menus_[i]);
+					}
+				}
+				ctx.body = {
+					code: 10000,
+					result: menus
+				}
+			}catch(error){
+				console.log(error);
+				throw new JsonError(20005, '菜单获取失败');
+			}
+		})
 		.get('/menus/list', async (ctx) => {
 			try{
 				

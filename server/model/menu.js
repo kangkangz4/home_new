@@ -21,6 +21,7 @@ const menuSchema = mongoose.Schema({
 		default: false
 	},
 	order:Number, //排序
+	isDelete:Boolean,
 	parent:{
 		type: ObjectId,
 		ref: 'Menu'

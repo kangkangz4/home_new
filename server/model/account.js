@@ -31,7 +31,10 @@ const accountSchema = new mongoose.Schema({
   },
   hashed_pass: {
     type: String,
-  }
+  },
+  isDelete:Boolean,
+  lastLoginTime: Date,
+  lastLoginIP:String
 }, {
   versionKey: false,
   timestamps: {

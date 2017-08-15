@@ -9,6 +9,7 @@ const departSchema = mongoose.Schema({
 	name:String, //部门名称
 	parent:String, //上级
 	order:Number, //排序
+	isDelete:Boolean,
 	accounts:[{
 		type: ObjectId,
 		ref: 'Account'
