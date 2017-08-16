@@ -1,8 +1,8 @@
 <template>
   <el-form :model="loginForm" :rules="loginFormRule" ref="loginForm" label-position="left" label-width="0px" class="demo-ruleForm login-container">
     <h3 class="title">系统登录</h3>
-    <el-form-item prop="mobile">
-      <el-input type="text" v-model="loginForm.mobile" auto-complete="off" placeholder="账号"></el-input>
+    <el-form-item prop="username">
+      <el-input type="text" v-model="loginForm.username" auto-complete="off" placeholder="账号"></el-input>
     </el-form-item>
     <el-form-item prop="checkPass">
       <el-input type="password" v-model="loginForm.password" auto-complete="off" placeholder="密码"></el-input>
@@ -25,11 +25,11 @@
       return {
         logining: false,
         loginForm: {
-          mobile: '13395140855',
+          username: '13395140855',
           password: '123456'
         },
         loginFormRule: {
-          mobile: [
+          username: [
             { required: true, message: '请输入账号', trigger: 'blur' },
           ],
           password: [

@@ -9,6 +9,13 @@ services:
       - "3001:3000"
     links:
       - mongodb
+      - redis
+  redis:
+    image: redis:latest
+    expose:
+      - 6379
+    ports:
+      - "6379:6379"
   mongodb:
     image: mongo:latest
     volumes:

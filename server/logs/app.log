@@ -9318,3 +9318,222 @@
 [2017-08-15 14:31:36.774] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
 [2017-08-15 14:31:36.782] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 605 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
 [2017-08-15 14:31:36.785] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 15:58:38.924] [INFO] startup - logs config finished!
+[2017-08-15 15:58:38.926] [INFO] app - --------step into koa---------
+[2017-08-15 15:59:10.375] [INFO] startup - logs config finished!
+[2017-08-15 15:59:10.378] [INFO] app - --------step into koa---------
+[2017-08-15 15:59:57.354] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 516 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 15:59:57.441] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 16:00:26.627] [INFO] startup - logs config finished!
+[2017-08-15 16:00:26.629] [INFO] app - --------step into koa---------
+[2017-08-15 16:00:31.489] [INFO] startup - logs config finished!
+[2017-08-15 16:00:31.494] [INFO] app - --------step into koa---------
+[2017-08-15 16:02:24.223] [INFO] startup - logs config finished!
+[2017-08-15 16:02:24.225] [INFO] app - --------step into koa---------
+[2017-08-15 16:10:18.802] [INFO] startup - logs config finished!
+[2017-08-15 16:10:18.806] [INFO] app - --------step into koa---------
+[2017-08-15 16:15:59.183] [INFO] startup - logs config finished!
+[2017-08-15 16:15:59.186] [INFO] app - --------step into koa---------
+[2017-08-15 16:16:04.517] [INFO] startup - logs config finished!
+[2017-08-15 16:16:04.523] [INFO] app - --------step into koa---------
+[2017-08-15 16:52:01.641] [INFO] startup - logs config finished!
+[2017-08-15 16:52:01.644] [INFO] app - --------step into koa---------
+[2017-08-15 16:52:52.903] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 400 11 "" "PostmanRuntime/6.1.6"
+[2017-08-15 16:53:22.697] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 400 11 "" "PostmanRuntime/6.1.6"
+[2017-08-15 16:53:45.453] [INFO] startup - logs config finished!
+[2017-08-15 16:53:45.455] [INFO] app - --------step into koa---------
+[2017-08-15 16:53:54.218] [INFO] startup - logs config finished!
+[2017-08-15 16:53:54.221] [INFO] app - --------step into koa---------
+[2017-08-15 16:54:02.202] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 400 11 "" "PostmanRuntime/6.1.6"
+[2017-08-15 16:54:42.733] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 400 11 "" "PostmanRuntime/6.1.6"
+[2017-08-15 16:55:50.117] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 400 11 "" "PostmanRuntime/6.1.6"
+[2017-08-15 16:56:14.395] [INFO] startup - logs config finished!
+[2017-08-15 16:56:14.398] [INFO] app - --------step into koa---------
+[2017-08-15 16:56:17.819] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-15 16:56:36.099] [INFO] startup - logs config finished!
+[2017-08-15 16:56:36.101] [INFO] app - --------step into koa---------
+[2017-08-15 16:56:51.684] [INFO] startup - logs config finished!
+[2017-08-15 16:56:51.686] [INFO] app - --------step into koa---------
+[2017-08-15 16:56:55.937] [INFO] startup - logs config finished!
+[2017-08-15 16:56:55.940] [INFO] app - --------step into koa---------
+[2017-08-15 16:57:07.701] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 400 11 "" "PostmanRuntime/6.1.6"
+[2017-08-15 16:57:31.212] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 400 11 "" "PostmanRuntime/6.1.6"
+[2017-08-15 16:59:26.929] [INFO] startup - logs config finished!
+[2017-08-15 16:59:26.931] [INFO] app - --------step into koa---------
+[2017-08-15 16:59:29.124] [INFO] startup - logs config finished!
+[2017-08-15 16:59:29.129] [INFO] app - --------step into koa---------
+[2017-08-15 17:00:38.747] [INFO] startup - logs config finished!
+[2017-08-15 17:00:38.750] [INFO] app - --------step into koa---------
+[2017-08-15 17:00:46.572] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 400 11 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:00:54.260] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:01:23.123] [INFO] startup - logs config finished!
+[2017-08-15 17:01:23.126] [INFO] app - --------step into koa---------
+[2017-08-15 17:01:43.495] [INFO] startup - logs config finished!
+[2017-08-15 17:01:43.498] [INFO] app - --------step into koa---------
+[2017-08-15 17:01:51.911] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/auth/strategies/local.js:12:11 message: '暂无此用户', code: '10001' }
+[2017-08-15 17:01:51.920] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 44 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:02:01.130] [INFO] startup - logs config finished!
+[2017-08-15 17:02:01.134] [INFO] app - --------step into koa---------
+[2017-08-15 17:02:14.859] [INFO] startup - logs config finished!
+[2017-08-15 17:02:14.863] [INFO] app - --------step into koa---------
+[2017-08-15 17:02:18.538] [INFO] startup - logs config finished!
+[2017-08-15 17:02:20.620] [INFO] startup - logs config finished!
+[2017-08-15 17:02:20.623] [INFO] app - --------step into koa---------
+[2017-08-15 17:02:23.656] [INFO] startup - logs config finished!
+[2017-08-15 17:02:23.660] [INFO] app - --------step into koa---------
+[2017-08-15 17:02:31.764] [ERROR] app - Error: passport.initialize() middleware not in use
+    at Object.req.login.req.logIn (/Users/zhukang/project/home_new/server/node_modules/passport/lib/http/request.js:46:34)
+    at Strategy.strategy.success (/Users/zhukang/project/home_new/server/node_modules/passport/lib/middleware/authenticate.js:235:13)
+    at verified (/Users/zhukang/project/home_new/server/node_modules/passport-local/lib/strategy.js:83:10)
+    at /Users/zhukang/project/home_new/server/auth/strategies/local.js:19:4
+[2017-08-15 17:02:31.778] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:02:57.986] [INFO] startup - logs config finished!
+[2017-08-15 17:02:57.992] [INFO] app - --------step into koa---------
+[2017-08-15 17:03:30.382] [INFO] startup - logs config finished!
+[2017-08-15 17:03:30.384] [INFO] app - --------step into koa---------
+[2017-08-15 17:03:32.898] [INFO] startup - logs config finished!
+[2017-08-15 17:03:32.901] [INFO] app - --------step into koa---------
+[2017-08-15 17:03:59.077] [INFO] startup - logs config finished!
+[2017-08-15 17:03:59.080] [INFO] app - --------step into koa---------
+[2017-08-15 17:04:05.194] [INFO] startup - logs config finished!
+[2017-08-15 17:04:05.196] [INFO] app - --------step into koa---------
+[2017-08-15 17:04:27.010] [INFO] startup - logs config finished!
+[2017-08-15 17:04:27.013] [INFO] app - --------step into koa---------
+[2017-08-15 17:04:29.787] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:05:01.115] [INFO] startup - logs config finished!
+[2017-08-15 17:05:01.119] [INFO] app - --------step into koa---------
+[2017-08-15 17:05:02.586] [ERROR] app - Error: passport.initialize() middleware not in use
+    at Object.req.login.req.logIn (/Users/zhukang/project/home_new/server/node_modules/passport/lib/http/request.js:46:34)
+    at Strategy.strategy.success (/Users/zhukang/project/home_new/server/node_modules/passport/lib/middleware/authenticate.js:235:13)
+    at verified (/Users/zhukang/project/home_new/server/node_modules/passport-local/lib/strategy.js:83:10)
+    at /Users/zhukang/project/home_new/server/auth/strategies/local.js:19:4
+[2017-08-15 17:05:02.598] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:06:23.354] [INFO] startup - logs config finished!
+[2017-08-15 17:06:23.364] [INFO] app - --------step into koa---------
+[2017-08-15 17:07:51.242] [INFO] startup - logs config finished!
+[2017-08-15 17:07:51.246] [INFO] app - --------step into koa---------
+[2017-08-15 17:07:55.221] [INFO] startup - logs config finished!
+[2017-08-15 17:07:55.223] [INFO] app - --------step into koa---------
+[2017-08-15 17:07:59.258] [INFO] startup - logs config finished!
+[2017-08-15 17:07:59.261] [INFO] app - --------step into koa---------
+[2017-08-15 17:08:04.544] [INFO] startup - logs config finished!
+[2017-08-15 17:08:04.548] [INFO] app - --------step into koa---------
+[2017-08-15 17:08:07.338] [INFO] startup - logs config finished!
+[2017-08-15 17:08:07.340] [INFO] app - --------step into koa---------
+[2017-08-15 17:08:11.188] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:08:25.908] [INFO] startup - logs config finished!
+[2017-08-15 17:08:25.910] [INFO] app - --------step into koa---------
+[2017-08-15 17:08:28.778] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:09:00.435] [INFO] startup - logs config finished!
+[2017-08-15 17:09:00.437] [INFO] app - --------step into koa---------
+[2017-08-15 17:09:22.726] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:10:06.541] [INFO] startup - logs config finished!
+[2017-08-15 17:10:06.544] [INFO] app - --------step into koa---------
+[2017-08-15 17:10:12.696] [INFO] startup - logs config finished!
+[2017-08-15 17:10:12.699] [INFO] app - --------step into koa---------
+[2017-08-15 17:10:14.711] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:11:21.753] [INFO] startup - logs config finished!
+[2017-08-15 17:11:21.756] [INFO] app - --------step into koa---------
+[2017-08-15 17:11:35.282] [INFO] startup - logs config finished!
+[2017-08-15 17:11:35.284] [INFO] app - --------step into koa---------
+[2017-08-15 17:11:40.164] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:12:05.020] [INFO] startup - logs config finished!
+[2017-08-15 17:12:05.025] [INFO] app - --------step into koa---------
+[2017-08-15 17:12:10.792] [INFO] startup - logs config finished!
+[2017-08-15 17:12:10.795] [INFO] app - --------step into koa---------
+[2017-08-15 17:12:13.853] [INFO] startup - logs config finished!
+[2017-08-15 17:12:13.857] [INFO] app - --------step into koa---------
+[2017-08-15 17:12:15.709] [INFO] startup - logs config finished!
+[2017-08-15 17:12:15.711] [INFO] app - --------step into koa---------
+[2017-08-15 17:12:29.948] [INFO] startup - logs config finished!
+[2017-08-15 17:12:29.951] [INFO] app - --------step into koa---------
+[2017-08-15 17:12:32.300] [INFO] startup - logs config finished!
+[2017-08-15 17:12:32.302] [INFO] app - --------step into koa---------
+[2017-08-15 17:12:46.617] [INFO] startup - logs config finished!
+[2017-08-15 17:12:46.619] [INFO] app - --------step into koa---------
+[2017-08-15 17:12:49.255] [INFO] startup - logs config finished!
+[2017-08-15 17:12:49.257] [INFO] app - --------step into koa---------
+[2017-08-15 17:12:55.325] [INFO] startup - logs config finished!
+[2017-08-15 17:12:55.327] [INFO] app - --------step into koa---------
+[2017-08-15 17:13:00.156] [INFO] startup - logs config finished!
+[2017-08-15 17:13:00.158] [INFO] app - --------step into koa---------
+[2017-08-15 17:13:20.590] [INFO] startup - logs config finished!
+[2017-08-15 17:13:20.592] [INFO] app - --------step into koa---------
+[2017-08-15 17:13:25.304] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:14:20.016] [INFO] startup - logs config finished!
+[2017-08-15 17:14:20.018] [INFO] app - --------step into koa---------
+[2017-08-15 17:14:25.398] [INFO] startup - logs config finished!
+[2017-08-15 17:14:25.401] [INFO] app - --------step into koa---------
+[2017-08-15 17:14:52.988] [INFO] startup - logs config finished!
+[2017-08-15 17:14:52.993] [INFO] app - --------step into koa---------
+[2017-08-15 17:14:57.619] [INFO] startup - logs config finished!
+[2017-08-15 17:14:57.621] [INFO] app - --------step into koa---------
+[2017-08-15 17:15:08.920] [INFO] startup - logs config finished!
+[2017-08-15 17:15:08.923] [INFO] app - --------step into koa---------
+[2017-08-15 17:15:13.872] [INFO] startup - logs config finished!
+[2017-08-15 17:15:13.874] [INFO] app - --------step into koa---------
+[2017-08-15 17:15:18.440] [INFO] startup - logs config finished!
+[2017-08-15 17:15:18.443] [INFO] app - --------step into koa---------
+[2017-08-15 17:15:22.563] [INFO] startup - logs config finished!
+[2017-08-15 17:15:22.565] [INFO] app - --------step into koa---------
+[2017-08-15 17:15:25.607] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 516 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:15:36.253] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/auth/strategies/local.js:12:11 message: '暂无此用户', code: '10001' }
+[2017-08-15 17:15:36.257] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 44 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:15:50.473] [INFO] startup - logs config finished!
+[2017-08-15 17:15:50.475] [INFO] app - --------step into koa---------
+[2017-08-15 17:16:01.581] [INFO] startup - logs config finished!
+[2017-08-15 17:16:01.589] [INFO] app - --------step into koa---------
+[2017-08-15 17:16:09.235] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 444 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:17:00.667] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 516 "" "PostmanRuntime/6.1.6"
+[2017-08-15 17:17:36.303] [INFO] startup - logs config finished!
+[2017-08-15 17:17:36.307] [INFO] app - --------step into koa---------
+[2017-08-15 17:18:35.269] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 516 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:18:35.351] [ERROR] app - ReferenceError: _ is not defined
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:26:28
+[2017-08-15 17:18:35.361] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:18:54.486] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 516 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:18:54.610] [ERROR] app - ReferenceError: _ is not defined
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:26:28
+[2017-08-15 17:18:54.612] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:19:00.765] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 516 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:19:00.811] [ERROR] app - ReferenceError: _ is not defined
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:26:28
+[2017-08-15 17:19:00.813] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:19:37.479] [INFO] startup - logs config finished!
+[2017-08-15 17:19:37.483] [INFO] app - --------step into koa---------
+[2017-08-15 17:19:40.739] [INFO] startup - logs config finished!
+[2017-08-15 17:19:40.741] [INFO] app - --------step into koa---------
+[2017-08-15 17:19:48.855] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 516 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:19:48.918] [ERROR] app - ReferenceError: _ is not defined
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:26:28
+[2017-08-15 17:19:48.927] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:20:41.581] [INFO] startup - logs config finished!
+[2017-08-15 17:20:41.583] [INFO] app - --------step into koa---------
+[2017-08-15 17:20:51.038] [INFO] startup - logs config finished!
+[2017-08-15 17:20:51.040] [INFO] app - --------step into koa---------
+[2017-08-15 17:20:53.059] [INFO] startup - logs config finished!
+[2017-08-15 17:20:53.061] [INFO] app - --------step into koa---------
+[2017-08-15 17:20:59.886] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 516 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:20:59.989] [ERROR] app - ReferenceError: _ is not defined
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:27:28
+[2017-08-15 17:21:00.000] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:21:38.078] [INFO] startup - logs config finished!
+[2017-08-15 17:21:38.081] [INFO] app - --------step into koa---------
+[2017-08-15 17:21:42.718] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 516 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:21:42.814] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:22:11.437] [INFO] startup - logs config finished!
+[2017-08-15 17:22:11.440] [INFO] app - --------step into koa---------
+[2017-08-15 17:22:27.540] [INFO] startup - logs config finished!
+[2017-08-15 17:22:27.546] [INFO] app - --------step into koa---------
+[2017-08-15 17:22:44.575] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 516 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:22:44.648] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:23:06.116] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 444 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:23:06.189] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 199 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-15 17:24:36.385] [INFO] startup - logs config finished!
+[2017-08-15 17:24:36.388] [INFO] app - --------step into koa---------
+[2017-08-15 17:24:43.279] [INFO] startup - logs config finished!
+[2017-08-15 17:24:43.281] [INFO] app - --------step into koa---------
+[2017-08-16 08:49:03.733] [INFO] startup - logs config finished!
+[2017-08-16 08:49:03.735] [INFO] app - --------step into koa---------

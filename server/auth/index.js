@@ -7,15 +7,25 @@ import Account from '../model/account'
 
 const strategies = importDir('./strategies');
 
-Object.keys(strategies).forEach(name => passport.use(name, strategies[name]));
+Object.keys(strategies).forEach(name => {
+  	passport.use(name, strategies[name]);
+});
 
 passport.serializeUser((user, done) => {
+	console.log('serializeUser');
 	done(null, user._id)
 });
 
 passport.deserializeUser(async (id, done) => {
-	const account = await Account.findById(id);
-	done(null, account);
+	(async() =>{
+		console.log('deserializeUser');
+		try{
+			const account = await Account.findById(id);
+			done(null, account);
+		}catch(error){
+			done(error);
+		}
+	})();
 });
 
 export default function auth(){
@@ -23,6 +33,10 @@ export default function auth(){
 		passport.initialize(),
     	passport.session()
 	])
+}
+
+export function isLocalAuthenticated(){
+	return passport.authenticate('local', { session: true });
 }
 
 //Bearer认证

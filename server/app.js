@@ -8,6 +8,7 @@ const bodyparser = require('koa-bodyparser')
 const log4js = require('koa-log4')
 const convert = require('koa-convert')
 const session = require('koa-generic-session')
+const redisStore = require('koa-redis')
 const cros = require('koa-cors')
 const helmet = require('koa-helmet')
 const JsonError = require('./error').JsonError
@@ -33,9 +34,16 @@ import {connectDB, initDB } from './db'
 // error handler
 onerror(app)
 
-app.keys = ['secret']
+app.keys = ['secret','secret1']
 // middlewares
-app.use(convert(session()))
+app.use(convert(session({
+  store: redisStore({
+    host: process.env.SESSION_PORT_6379_TCP_ADDR || '127.0.0.1',
+  	port: process.env.SESSION_PORT_6379_TCP_PORT || 6379,
+  	ttl: 3600,
+  })
+})))
+// app.use(convert(session()))
 app.use(convert(cros()))
 app.use(helmet())
 app.use(bodyparser({
@@ -103,13 +111,13 @@ app.use(async (ctx, next) => {
 	}
 })
 
-// routes
-import router from './router'
-app.use(router())
-
 // 认证
 import auth from './auth'
 app.use(auth())
+
+// routes
+import router from './router'
+app.use(router())
 
 const index = require('./routes/index')
 // const users = require('./routes/users')

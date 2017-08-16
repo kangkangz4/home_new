@@ -1,23 +1,13 @@
 'use strict'
 
-import AccessToken from '../../model/access-token';
-import Account from '../../model/account';
-import {JsonError} from '../../error';
+import AccessToken from '../../model/access-token'
+import Account from '../../model/account'
+import {JsonError} from '../../error'
+import { isLocalAuthenticated } from '../../auth'
 
 export default (router => {
-	router.post('/login', async (ctx, next) => {
-		const { mobile, password } = ctx.request.body;
-		const account = await Account.findOne({ mobile:mobile});
-		if(!account){
-			throw new JsonError('10001', '暂无此用户');
-		}
-
-		const isMatch = await account.compare(password);
-		console.log(isMatch);
-		if(!isMatch){
-			throw new JsonError('10002', '密码错误');
-		}
-
+	router.post('/login', isLocalAuthenticated(), async (ctx) => {
+		const account = ctx.state.user;
 		//删除当前令牌
 		await AccessToken.findOneAndRemove({account: account._id});
 		//重新创建令牌

@@ -17,7 +17,6 @@ function isMenuHasPermission(menu, permissions){
 		return true;
 	}
 	for (var i = 0; i < permissions.length; i++) {
-		console.log(permissions[i].permissions.indexOf('查看'));
 		if(menu.shortname == permissions[i].name && permissions[i].permissions.indexOf('查看') != -1){
 			return true;
 		}
@@ -46,7 +45,7 @@ export default (router => {
 			try{
 				//获取用户权限
 				const permissions = ctx.state.user.permissions;
-				console.log(permissions);
+				// console.log(permissions);
 				//查询所有菜单
 				const menus_ = await Menu.find();
 				let menus = [];
