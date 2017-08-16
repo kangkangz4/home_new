@@ -9,7 +9,7 @@
 				<el-form-item>
 					<el-button type="primary" v-on:click="listPermission">查询</el-button>
 				</el-form-item>
-				<el-form-item>
+				<el-form-item v-show="canAdd">
 					<el-button type="primary" @click="handleAdd">新增</el-button>
 				</el-form-item>
 			</el-form>
@@ -23,10 +23,10 @@
 			</el-table-column>
 			<el-table-column prop="order" label="排序" width="120" sortable>
 			</el-table-column>
-			<el-table-column label="操作" width="150">
+			<el-table-column label="操作" min-width="150">
 				<template scope="scope">
-					<el-button size="small" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>
-					<el-button type="danger" size="small" @click="handleDel(scope.$index, scope.row)">删除</el-button>
+					<el-button size="small" @click="handleEdit(scope.$index, scope.row)" v-show="canEdit">编辑</el-button>
+					<el-button type="danger" size="small" @click="handleDel(scope.$index, scope.row)" v-show="canDelete">删除</el-button>
 				</template>
 			</el-table-column>
 		</el-table>
@@ -59,7 +59,7 @@
 							<el-checkbox-group v-model="child.permissions">
 							    <el-checkbox label="查看"></el-checkbox>
 							    <el-checkbox label="创建"></el-checkbox>
-							    <el-checkbox label="更新"></el-checkbox>
+							    <el-checkbox label="编辑"></el-checkbox>
 							    <el-checkbox label="删除"></el-checkbox>
 							</el-checkbox-group>
 						</div>
@@ -100,7 +100,7 @@
 							<el-checkbox-group v-model="child.permissions">
 							    <el-checkbox label="查看"></el-checkbox>
 							    <el-checkbox label="创建"></el-checkbox>
-							    <el-checkbox label="更新"></el-checkbox>
+							    <el-checkbox label="编辑"></el-checkbox>
 							    <el-checkbox label="删除"></el-checkbox>
 							</el-checkbox-group>
 						</div>
@@ -117,14 +117,21 @@
 
 <script>
 import { getMenus,listRole, listPermission, addPermission, editPermission, removePermission } from '../../api/api'
+import { mapGetters } from 'vuex'
 import util from '../../common/js/util'
 
 export default {
+	computed: {  
+    	...mapGetters(['account'])
+	},
 	data(){
 		return {
 			filters:{
 				name: ''
 			},
+			canAdd:false,
+			canEdit:false,
+			canDelete:false,
 			listLoading:false,
 			permissions: [],
 			operations: [],
@@ -160,6 +167,12 @@ export default {
 		}
 	},
 	methods:{
+		setPermission(){
+			const permissions = this.account.permissions;
+			this.canAdd = util.hasPermission(permissions, 'permission', '创建');
+			this.canEdit = util.hasPermission(permissions, 'permission', '编辑');
+			this.canDelete = util.hasPermission(permissions, 'permission', '删除');
+		},
 		listRole(){
 			const para = {
 				name: ''
@@ -310,7 +323,7 @@ export default {
 		handleCheckAllChange(menu){
 			_.each(menu.children, (child)=>{
 				if(menu.allchecked){
-					child.permissions = ['查看','创建','更新','删除'];
+					child.permissions = ['查看','创建','编辑','删除'];
 				}else{
 					child.permissions = [];
 				}
@@ -318,6 +331,7 @@ export default {
 		}
 	},
 	mounted(){
+		this.setPermission();
 		this.listMenu();
 		this.listRole();
 		this.listPermission();

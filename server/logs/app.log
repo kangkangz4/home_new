@@ -9537,3 +9537,1039 @@
 [2017-08-15 17:24:43.281] [INFO] app - --------step into koa---------
 [2017-08-16 08:49:03.733] [INFO] startup - logs config finished!
 [2017-08-16 08:49:03.735] [INFO] app - --------step into koa---------
+[2017-08-16 09:11:38.244] [INFO] startup - logs config finished!
+[2017-08-16 09:11:38.247] [INFO] app - --------step into koa---------
+[2017-08-16 09:11:57.640] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 516 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:11:57.728] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:12:09.443] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:14:06.955] [INFO] startup - logs config finished!
+[2017-08-16 09:14:06.957] [INFO] app - --------step into koa---------
+[2017-08-16 09:14:26.958] [INFO] startup - logs config finished!
+[2017-08-16 09:14:26.960] [INFO] app - --------step into koa---------
+[2017-08-16 09:14:51.850] [INFO] startup - logs config finished!
+[2017-08-16 09:14:51.853] [INFO] app - --------step into koa---------
+[2017-08-16 09:14:58.916] [INFO] startup - logs config finished!
+[2017-08-16 09:14:58.919] [INFO] app - --------step into koa---------
+[2017-08-16 09:15:02.267] [INFO] startup - logs config finished!
+[2017-08-16 09:15:02.271] [INFO] app - --------step into koa---------
+[2017-08-16 09:15:03.924] [INFO] startup - logs config finished!
+[2017-08-16 09:15:03.926] [INFO] app - --------step into koa---------
+[2017-08-16 09:15:15.564] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:15:34.526] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 516 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:15:34.585] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:18:33.317] [INFO] startup - logs config finished!
+[2017-08-16 09:18:33.319] [INFO] app - --------step into koa---------
+[2017-08-16 09:19:25.376] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:19:28.847] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/department/list HTTP/1.1" 200 26 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:19:28.854] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:20:06.882] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:20:06.891] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:20:09.934] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:20:09.955] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 605 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:20:09.996] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:20:33.529] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:20:35.018] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:20:35.033] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:20:35.065] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 605 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:20:47.562] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 444 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:20:47.607] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 199 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:21:25.400] [INFO] startup - logs config finished!
+[2017-08-16 09:21:25.402] [INFO] app - --------step into koa---------
+[2017-08-16 09:36:30.168] [INFO] startup - logs config finished!
+[2017-08-16 09:36:30.170] [INFO] app - --------step into koa---------
+[2017-08-16 09:36:35.221] [INFO] startup - logs config finished!
+[2017-08-16 09:36:35.224] [INFO] app - --------step into koa---------
+[2017-08-16 09:36:38.195] [INFO] startup - logs config finished!
+[2017-08-16 09:36:38.198] [INFO] app - --------step into koa---------
+[2017-08-16 09:36:48.812] [INFO] startup - logs config finished!
+[2017-08-16 09:36:48.815] [INFO] app - --------step into koa---------
+[2017-08-16 09:36:54.820] [INFO] startup - logs config finished!
+[2017-08-16 09:36:54.823] [INFO] app - --------step into koa---------
+[2017-08-16 09:38:48.100] [INFO] startup - logs config finished!
+[2017-08-16 09:38:48.103] [INFO] app - --------step into koa---------
+[2017-08-16 09:38:52.196] [INFO] startup - logs config finished!
+[2017-08-16 09:38:52.198] [INFO] app - --------step into koa---------
+[2017-08-16 09:38:59.074] [INFO] startup - logs config finished!
+[2017-08-16 09:38:59.078] [INFO] app - --------step into koa---------
+[2017-08-16 09:39:07.428] [INFO] startup - logs config finished!
+[2017-08-16 09:39:07.430] [INFO] app - --------step into koa---------
+[2017-08-16 09:39:10.565] [INFO] startup - logs config finished!
+[2017-08-16 09:39:10.568] [INFO] app - --------step into koa---------
+[2017-08-16 09:39:14.617] [INFO] startup - logs config finished!
+[2017-08-16 09:39:14.620] [INFO] app - --------step into koa---------
+[2017-08-16 09:39:19.317] [INFO] startup - logs config finished!
+[2017-08-16 09:39:19.320] [INFO] app - --------step into koa---------
+[2017-08-16 09:39:20.821] [INFO] startup - logs config finished!
+[2017-08-16 09:39:20.824] [INFO] app - --------step into koa---------
+[2017-08-16 09:39:22.356] [INFO] startup - logs config finished!
+[2017-08-16 09:39:22.358] [INFO] app - --------step into koa---------
+[2017-08-16 09:39:41.398] [INFO] startup - logs config finished!
+[2017-08-16 09:39:41.400] [INFO] app - --------step into koa---------
+[2017-08-16 09:39:53.448] [INFO] startup - logs config finished!
+[2017-08-16 09:39:53.450] [INFO] app - --------step into koa---------
+[2017-08-16 09:39:56.422] [INFO] startup - logs config finished!
+[2017-08-16 09:39:56.425] [INFO] app - --------step into koa---------
+[2017-08-16 09:39:58.754] [INFO] startup - logs config finished!
+[2017-08-16 09:39:58.756] [INFO] app - --------step into koa---------
+[2017-08-16 09:40:17.507] [INFO] startup - logs config finished!
+[2017-08-16 09:40:17.511] [INFO] app - --------step into koa---------
+[2017-08-16 09:41:13.461] [INFO] startup - logs config finished!
+[2017-08-16 09:41:13.464] [INFO] app - --------step into koa---------
+[2017-08-16 09:41:17.548] [INFO] startup - logs config finished!
+[2017-08-16 09:41:17.550] [INFO] app - --------step into koa---------
+[2017-08-16 09:41:19.836] [INFO] startup - logs config finished!
+[2017-08-16 09:41:19.839] [INFO] app - --------step into koa---------
+[2017-08-16 09:41:26.871] [INFO] startup - logs config finished!
+[2017-08-16 09:41:26.873] [INFO] app - --------step into koa---------
+[2017-08-16 09:41:29.059] [INFO] startup - logs config finished!
+[2017-08-16 09:41:29.061] [INFO] app - --------step into koa---------
+[2017-08-16 09:41:31.174] [INFO] startup - logs config finished!
+[2017-08-16 09:41:31.177] [INFO] app - --------step into koa---------
+[2017-08-16 09:41:43.646] [INFO] startup - logs config finished!
+[2017-08-16 09:41:43.648] [INFO] app - --------step into koa---------
+[2017-08-16 09:42:00.738] [INFO] startup - logs config finished!
+[2017-08-16 09:42:00.740] [INFO] app - --------step into koa---------
+[2017-08-16 09:42:19.560] [INFO] startup - logs config finished!
+[2017-08-16 09:42:19.563] [INFO] app - --------step into koa---------
+[2017-08-16 09:42:24.923] [INFO] startup - logs config finished!
+[2017-08-16 09:42:24.925] [INFO] app - --------step into koa---------
+[2017-08-16 09:42:32.353] [INFO] startup - logs config finished!
+[2017-08-16 09:42:32.364] [INFO] app - --------step into koa---------
+[2017-08-16 09:42:34.728] [INFO] startup - logs config finished!
+[2017-08-16 09:42:34.730] [INFO] app - --------step into koa---------
+[2017-08-16 09:42:47.472] [INFO] startup - logs config finished!
+[2017-08-16 09:42:47.475] [INFO] app - --------step into koa---------
+[2017-08-16 09:42:54.413] [INFO] startup - logs config finished!
+[2017-08-16 09:42:54.416] [INFO] app - --------step into koa---------
+[2017-08-16 09:42:59.567] [INFO] startup - logs config finished!
+[2017-08-16 09:42:59.569] [INFO] app - --------step into koa---------
+[2017-08-16 09:43:01.594] [INFO] startup - logs config finished!
+[2017-08-16 09:43:01.597] [INFO] app - --------step into koa---------
+[2017-08-16 09:43:04.861] [INFO] startup - logs config finished!
+[2017-08-16 09:43:04.864] [INFO] app - --------step into koa---------
+[2017-08-16 09:43:06.782] [INFO] startup - logs config finished!
+[2017-08-16 09:43:06.785] [INFO] app - --------step into koa---------
+[2017-08-16 09:43:11.248] [INFO] startup - logs config finished!
+[2017-08-16 09:43:11.251] [INFO] app - --------step into koa---------
+[2017-08-16 09:43:17.335] [INFO] startup - logs config finished!
+[2017-08-16 09:43:17.340] [INFO] app - --------step into koa---------
+[2017-08-16 09:43:21.861] [INFO] startup - logs config finished!
+[2017-08-16 09:43:21.863] [INFO] app - --------step into koa---------
+[2017-08-16 09:43:24.003] [INFO] startup - logs config finished!
+[2017-08-16 09:43:24.005] [INFO] app - --------step into koa---------
+[2017-08-16 09:43:43.603] [INFO] startup - logs config finished!
+[2017-08-16 09:43:43.606] [INFO] app - --------step into koa---------
+[2017-08-16 09:43:47.488] [INFO] startup - logs config finished!
+[2017-08-16 09:43:47.491] [INFO] app - --------step into koa---------
+[2017-08-16 09:43:49.947] [INFO] startup - logs config finished!
+[2017-08-16 09:43:49.949] [INFO] app - --------step into koa---------
+[2017-08-16 09:43:53.737] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 516 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:43:53.794] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 26 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 09:44:27.675] [INFO] startup - logs config finished!
+[2017-08-16 09:44:27.678] [INFO] app - --------step into koa---------
+[2017-08-16 09:44:30.034] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 516 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:44:49.627] [INFO] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:45:09.325] [INFO] startup - logs config finished!
+[2017-08-16 09:45:09.327] [INFO] app - --------step into koa---------
+[2017-08-16 09:45:20.838] [INFO] startup - logs config finished!
+[2017-08-16 09:45:20.841] [INFO] app - --------step into koa---------
+[2017-08-16 09:45:27.233] [INFO] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:45:47.790] [INFO] startup - logs config finished!
+[2017-08-16 09:45:47.792] [INFO] app - --------step into koa---------
+[2017-08-16 09:45:51.318] [INFO] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:46:02.188] [INFO] startup - logs config finished!
+[2017-08-16 09:46:02.190] [INFO] app - --------step into koa---------
+[2017-08-16 09:46:07.401] [INFO] startup - logs config finished!
+[2017-08-16 09:46:07.404] [INFO] app - --------step into koa---------
+[2017-08-16 09:46:10.169] [INFO] startup - logs config finished!
+[2017-08-16 09:46:10.172] [INFO] app - --------step into koa---------
+[2017-08-16 09:46:14.358] [INFO] startup - logs config finished!
+[2017-08-16 09:46:14.360] [INFO] app - --------step into koa---------
+[2017-08-16 09:46:16.040] [INFO] startup - logs config finished!
+[2017-08-16 09:46:16.044] [INFO] app - --------step into koa---------
+[2017-08-16 09:46:22.872] [INFO] startup - logs config finished!
+[2017-08-16 09:46:22.874] [INFO] app - --------step into koa---------
+[2017-08-16 09:46:25.234] [INFO] startup - logs config finished!
+[2017-08-16 09:46:25.236] [INFO] app - --------step into koa---------
+[2017-08-16 09:46:27.631] [INFO] startup - logs config finished!
+[2017-08-16 09:46:27.634] [INFO] app - --------step into koa---------
+[2017-08-16 09:46:32.290] [INFO] startup - logs config finished!
+[2017-08-16 09:46:32.292] [INFO] app - --------step into koa---------
+[2017-08-16 09:46:34.627] [INFO] startup - logs config finished!
+[2017-08-16 09:46:34.630] [INFO] app - --------step into koa---------
+[2017-08-16 09:46:39.991] [INFO] startup - logs config finished!
+[2017-08-16 09:46:39.997] [INFO] app - --------step into koa---------
+[2017-08-16 09:46:45.080] [INFO] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:46:58.180] [INFO] startup - logs config finished!
+[2017-08-16 09:46:58.183] [INFO] app - --------step into koa---------
+[2017-08-16 09:47:00.354] [INFO] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 26 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:47:21.565] [INFO] startup - logs config finished!
+[2017-08-16 09:47:21.567] [INFO] app - --------step into koa---------
+[2017-08-16 09:47:26.161] [INFO] startup - logs config finished!
+[2017-08-16 09:47:26.163] [INFO] app - --------step into koa---------
+[2017-08-16 09:47:28.497] [INFO] startup - logs config finished!
+[2017-08-16 09:47:28.500] [INFO] app - --------step into koa---------
+[2017-08-16 09:47:39.296] [INFO] startup - logs config finished!
+[2017-08-16 09:47:39.298] [INFO] app - --------step into koa---------
+[2017-08-16 09:47:40.235] [INFO] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 199 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:47:57.766] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 516 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:48:12.541] [INFO] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 199 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:48:21.606] [INFO] startup - logs config finished!
+[2017-08-16 09:48:21.609] [INFO] app - --------step into koa---------
+[2017-08-16 09:48:42.292] [INFO] startup - logs config finished!
+[2017-08-16 09:48:42.294] [INFO] app - --------step into koa---------
+[2017-08-16 09:48:45.685] [INFO] startup - logs config finished!
+[2017-08-16 09:48:45.687] [INFO] app - --------step into koa---------
+[2017-08-16 09:48:49.122] [INFO] startup - logs config finished!
+[2017-08-16 09:48:49.125] [INFO] app - --------step into koa---------
+[2017-08-16 09:48:58.590] [INFO] startup - logs config finished!
+[2017-08-16 09:48:58.594] [INFO] app - --------step into koa---------
+[2017-08-16 09:49:10.888] [INFO] startup - logs config finished!
+[2017-08-16 09:49:10.892] [INFO] app - --------step into koa---------
+[2017-08-16 09:49:14.709] [INFO] startup - logs config finished!
+[2017-08-16 09:49:14.712] [INFO] app - --------step into koa---------
+[2017-08-16 09:49:23.723] [INFO] startup - logs config finished!
+[2017-08-16 09:49:23.725] [INFO] app - --------step into koa---------
+[2017-08-16 09:49:27.170] [INFO] startup - logs config finished!
+[2017-08-16 09:49:27.172] [INFO] app - --------step into koa---------
+[2017-08-16 09:49:31.217] [INFO] startup - logs config finished!
+[2017-08-16 09:49:31.220] [INFO] app - --------step into koa---------
+[2017-08-16 09:49:33.478] [INFO] startup - logs config finished!
+[2017-08-16 09:49:33.482] [INFO] app - --------step into koa---------
+[2017-08-16 09:49:40.488] [INFO] startup - logs config finished!
+[2017-08-16 09:49:40.491] [INFO] app - --------step into koa---------
+[2017-08-16 09:49:44.112] [INFO] startup - logs config finished!
+[2017-08-16 09:49:44.114] [INFO] app - --------step into koa---------
+[2017-08-16 09:49:47.505] [INFO] startup - logs config finished!
+[2017-08-16 09:49:47.508] [INFO] app - --------step into koa---------
+[2017-08-16 09:49:56.374] [INFO] startup - logs config finished!
+[2017-08-16 09:49:56.378] [INFO] app - --------step into koa---------
+[2017-08-16 09:49:59.404] [INFO] startup - logs config finished!
+[2017-08-16 09:49:59.407] [INFO] app - --------step into koa---------
+[2017-08-16 09:50:02.229] [INFO] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:50:15.055] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 444 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:50:27.316] [INFO] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 199 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:50:33.144] [INFO] startup - logs config finished!
+[2017-08-16 09:50:33.146] [INFO] app - --------step into koa---------
+[2017-08-16 09:50:41.366] [INFO] startup - logs config finished!
+[2017-08-16 09:50:41.368] [INFO] app - --------step into koa---------
+[2017-08-16 09:50:46.314] [INFO] startup - logs config finished!
+[2017-08-16 09:50:46.316] [INFO] app - --------step into koa---------
+[2017-08-16 09:50:51.548] [INFO] startup - logs config finished!
+[2017-08-16 09:50:51.550] [INFO] app - --------step into koa---------
+[2017-08-16 09:50:56.096] [INFO] startup - logs config finished!
+[2017-08-16 09:50:56.098] [INFO] app - --------step into koa---------
+[2017-08-16 09:50:58.946] [INFO] startup - logs config finished!
+[2017-08-16 09:50:58.949] [INFO] app - --------step into koa---------
+[2017-08-16 09:51:00.673] [INFO] startup - logs config finished!
+[2017-08-16 09:51:00.676] [INFO] app - --------step into koa---------
+[2017-08-16 09:51:07.164] [INFO] startup - logs config finished!
+[2017-08-16 09:51:07.168] [INFO] app - --------step into koa---------
+[2017-08-16 09:51:12.154] [INFO] startup - logs config finished!
+[2017-08-16 09:51:12.157] [INFO] app - --------step into koa---------
+[2017-08-16 09:51:14.321] [INFO] startup - logs config finished!
+[2017-08-16 09:51:14.324] [INFO] app - --------step into koa---------
+[2017-08-16 09:51:20.035] [INFO] startup - logs config finished!
+[2017-08-16 09:51:20.037] [INFO] app - --------step into koa---------
+[2017-08-16 09:51:21.674] [INFO] startup - logs config finished!
+[2017-08-16 09:51:21.677] [INFO] app - --------step into koa---------
+[2017-08-16 09:51:23.843] [INFO] startup - logs config finished!
+[2017-08-16 09:51:23.845] [INFO] app - --------step into koa---------
+[2017-08-16 09:51:26.091] [INFO] startup - logs config finished!
+[2017-08-16 09:51:26.094] [INFO] app - --------step into koa---------
+[2017-08-16 09:51:29.028] [INFO] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 199 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:51:42.390] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 516 "" "PostmanRuntime/6.1.6"
+[2017-08-16 09:52:01.039] [INFO] startup - logs config finished!
+[2017-08-16 09:52:01.042] [INFO] app - --------step into koa---------
+[2017-08-16 09:53:10.563] [INFO] startup - logs config finished!
+[2017-08-16 09:53:10.567] [INFO] app - --------step into koa---------
+[2017-08-16 09:53:16.775] [INFO] startup - logs config finished!
+[2017-08-16 09:53:16.779] [INFO] app - --------step into koa---------
+[2017-08-16 09:53:21.088] [INFO] startup - logs config finished!
+[2017-08-16 09:53:21.091] [INFO] app - --------step into koa---------
+[2017-08-16 09:53:25.021] [INFO] startup - logs config finished!
+[2017-08-16 09:53:25.025] [INFO] app - --------step into koa---------
+[2017-08-16 09:53:28.957] [INFO] startup - logs config finished!
+[2017-08-16 09:53:28.963] [INFO] app - --------step into koa---------
+[2017-08-16 09:53:34.582] [INFO] startup - logs config finished!
+[2017-08-16 09:53:34.585] [INFO] app - --------step into koa---------
+[2017-08-16 09:53:36.164] [INFO] startup - logs config finished!
+[2017-08-16 09:53:36.168] [INFO] app - --------step into koa---------
+[2017-08-16 09:53:37.835] [INFO] startup - logs config finished!
+[2017-08-16 09:53:37.838] [INFO] app - --------step into koa---------
+[2017-08-16 09:53:40.394] [INFO] startup - logs config finished!
+[2017-08-16 09:53:40.397] [INFO] app - --------step into koa---------
+[2017-08-16 09:54:09.460] [INFO] startup - logs config finished!
+[2017-08-16 09:54:09.463] [INFO] app - --------step into koa---------
+[2017-08-16 09:54:24.528] [INFO] startup - logs config finished!
+[2017-08-16 09:54:24.531] [INFO] app - --------step into koa---------
+[2017-08-16 09:55:02.421] [INFO] startup - logs config finished!
+[2017-08-16 09:55:02.423] [INFO] app - --------step into koa---------
+[2017-08-16 09:55:05.868] [INFO] startup - logs config finished!
+[2017-08-16 09:55:05.872] [INFO] app - --------step into koa---------
+[2017-08-16 09:55:09.554] [INFO] startup - logs config finished!
+[2017-08-16 09:55:09.556] [INFO] app - --------step into koa---------
+[2017-08-16 09:55:16.782] [INFO] startup - logs config finished!
+[2017-08-16 09:55:16.784] [INFO] app - --------step into koa---------
+[2017-08-16 09:55:49.411] [INFO] startup - logs config finished!
+[2017-08-16 09:55:49.413] [INFO] app - --------step into koa---------
+[2017-08-16 09:55:52.154] [INFO] startup - logs config finished!
+[2017-08-16 09:55:52.157] [INFO] app - --------step into koa---------
+[2017-08-16 10:03:03.114] [INFO] startup - logs config finished!
+[2017-08-16 10:03:03.117] [INFO] app - --------step into koa---------
+[2017-08-16 10:03:22.005] [INFO] startup - logs config finished!
+[2017-08-16 10:03:22.008] [INFO] app - --------step into koa---------
+[2017-08-16 10:03:34.417] [INFO] startup - logs config finished!
+[2017-08-16 10:03:34.420] [INFO] app - --------step into koa---------
+[2017-08-16 10:03:41.507] [INFO] startup - logs config finished!
+[2017-08-16 10:03:41.511] [INFO] app - --------step into koa---------
+[2017-08-16 10:04:00.762] [INFO] startup - logs config finished!
+[2017-08-16 10:04:00.765] [INFO] app - --------step into koa---------
+[2017-08-16 10:04:04.087] [INFO] startup - logs config finished!
+[2017-08-16 10:04:04.089] [INFO] app - --------step into koa---------
+[2017-08-16 10:04:07.865] [INFO] startup - logs config finished!
+[2017-08-16 10:04:07.868] [INFO] app - --------step into koa---------
+[2017-08-16 10:04:09.744] [INFO] startup - logs config finished!
+[2017-08-16 10:04:09.746] [INFO] app - --------step into koa---------
+[2017-08-16 10:04:14.187] [INFO] startup - logs config finished!
+[2017-08-16 10:04:14.189] [INFO] app - --------step into koa---------
+[2017-08-16 10:04:20.484] [INFO] startup - logs config finished!
+[2017-08-16 10:04:20.486] [INFO] app - --------step into koa---------
+[2017-08-16 10:04:23.395] [INFO] startup - logs config finished!
+[2017-08-16 10:04:23.398] [INFO] app - --------step into koa---------
+[2017-08-16 10:04:31.341] [INFO] startup - logs config finished!
+[2017-08-16 10:04:31.345] [INFO] app - --------step into koa---------
+[2017-08-16 10:04:52.441] [INFO] startup - logs config finished!
+[2017-08-16 10:04:52.443] [INFO] app - --------step into koa---------
+[2017-08-16 10:04:57.231] [INFO] startup - logs config finished!
+[2017-08-16 10:04:57.233] [INFO] app - --------step into koa---------
+[2017-08-16 10:04:59.315] [INFO] startup - logs config finished!
+[2017-08-16 10:04:59.317] [INFO] app - --------step into koa---------
+[2017-08-16 10:05:08.033] [INFO] startup - logs config finished!
+[2017-08-16 10:05:08.037] [INFO] app - --------step into koa---------
+[2017-08-16 10:05:12.682] [ERROR] app - ReferenceError: _ is not defined
+    at /Users/zhukang/project/home_new/server/auth/strategies/local.js:28:28
+[2017-08-16 10:05:12.691] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-16 10:05:51.098] [INFO] startup - logs config finished!
+[2017-08-16 10:05:51.101] [INFO] app - --------step into koa---------
+[2017-08-16 10:05:52.260] [ERROR] app - ReferenceError: _ is not defined
+    at /Users/zhukang/project/home_new/server/auth/strategies/local.js:29:28
+[2017-08-16 10:05:52.271] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-16 10:06:12.230] [INFO] startup - logs config finished!
+[2017-08-16 10:06:12.235] [INFO] app - --------step into koa---------
+[2017-08-16 10:06:26.992] [INFO] startup - logs config finished!
+[2017-08-16 10:06:26.997] [INFO] app - --------step into koa---------
+[2017-08-16 10:06:28.396] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 1044 "" "PostmanRuntime/6.1.6"
+[2017-08-16 10:07:22.838] [INFO] startup - logs config finished!
+[2017-08-16 10:07:22.840] [INFO] app - --------step into koa---------
+[2017-08-16 10:16:39.726] [INFO] startup - logs config finished!
+[2017-08-16 10:16:39.730] [INFO] app - --------step into koa---------
+[2017-08-16 10:18:23.268] [INFO] startup - logs config finished!
+[2017-08-16 10:18:23.272] [INFO] app - --------step into koa---------
+[2017-08-16 10:18:25.021] [INFO] startup - logs config finished!
+[2017-08-16 10:18:25.023] [INFO] app - --------step into koa---------
+[2017-08-16 10:18:30.482] [INFO] startup - logs config finished!
+[2017-08-16 10:18:30.484] [INFO] app - --------step into koa---------
+[2017-08-16 10:19:08.104] [INFO] startup - logs config finished!
+[2017-08-16 10:19:08.106] [INFO] app - --------step into koa---------
+[2017-08-16 10:19:38.451] [INFO] startup - logs config finished!
+[2017-08-16 10:19:38.453] [INFO] app - --------step into koa---------
+[2017-08-16 10:19:49.399] [INFO] startup - logs config finished!
+[2017-08-16 10:19:49.401] [INFO] app - --------step into koa---------
+[2017-08-16 10:27:08.688] [INFO] startup - logs config finished!
+[2017-08-16 10:27:08.690] [INFO] app - --------step into koa---------
+[2017-08-16 10:33:27.986] [INFO] startup - logs config finished!
+[2017-08-16 10:33:27.988] [INFO] app - --------step into koa---------
+[2017-08-16 10:33:38.753] [INFO] startup - logs config finished!
+[2017-08-16 10:33:38.756] [INFO] app - --------step into koa---------
+[2017-08-16 10:33:41.708] [INFO] startup - logs config finished!
+[2017-08-16 10:33:41.710] [INFO] app - --------step into koa---------
+[2017-08-16 10:34:04.077] [INFO] startup - logs config finished!
+[2017-08-16 10:34:04.080] [INFO] app - --------step into koa---------
+[2017-08-16 10:34:08.764] [INFO] startup - logs config finished!
+[2017-08-16 10:34:08.767] [INFO] app - --------step into koa---------
+[2017-08-16 10:37:41.096] [INFO] startup - logs config finished!
+[2017-08-16 10:37:41.099] [INFO] app - --------step into koa---------
+[2017-08-16 10:37:43.822] [INFO] startup - logs config finished!
+[2017-08-16 10:37:43.824] [INFO] app - --------step into koa---------
+[2017-08-16 10:38:18.326] [INFO] startup - logs config finished!
+[2017-08-16 10:38:18.329] [INFO] app - --------step into koa---------
+[2017-08-16 10:38:32.988] [INFO] startup - logs config finished!
+[2017-08-16 10:38:32.990] [INFO] app - --------step into koa---------
+[2017-08-16 10:38:57.949] [INFO] startup - logs config finished!
+[2017-08-16 10:38:57.951] [INFO] app - --------step into koa---------
+[2017-08-16 10:39:00.024] [INFO] startup - logs config finished!
+[2017-08-16 10:39:00.026] [INFO] app - --------step into koa---------
+[2017-08-16 10:39:15.504] [INFO] startup - logs config finished!
+[2017-08-16 10:39:15.507] [INFO] app - --------step into koa---------
+[2017-08-16 10:39:19.033] [INFO] startup - logs config finished!
+[2017-08-16 10:39:19.036] [INFO] app - --------step into koa---------
+[2017-08-16 10:39:21.105] [INFO] startup - logs config finished!
+[2017-08-16 10:39:21.107] [INFO] app - --------step into koa---------
+[2017-08-16 10:39:29.350] [INFO] startup - logs config finished!
+[2017-08-16 10:39:29.353] [INFO] app - --------step into koa---------
+[2017-08-16 10:39:43.773] [ERROR] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-16 10:40:23.515] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 10:41:15.596] [INFO] startup - logs config finished!
+[2017-08-16 10:41:15.599] [INFO] app - --------step into koa---------
+[2017-08-16 10:41:23.691] [INFO] startup - logs config finished!
+[2017-08-16 10:41:23.693] [INFO] app - --------step into koa---------
+[2017-08-16 10:41:37.161] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 10:41:37.266] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 10:42:04.947] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 10:42:04.999] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 10:42:32.065] [INFO] startup - logs config finished!
+[2017-08-16 10:42:32.071] [INFO] app - --------step into koa---------
+[2017-08-16 10:50:40.607] [INFO] startup - logs config finished!
+[2017-08-16 10:50:40.609] [INFO] app - --------step into koa---------
+[2017-08-16 11:06:04.518] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 11:06:04.575] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 11:07:19.581] [INFO] startup - logs config finished!
+[2017-08-16 11:07:19.585] [INFO] app - --------step into koa---------
+[2017-08-16 11:11:22.875] [INFO] startup - logs config finished!
+[2017-08-16 11:11:22.878] [INFO] app - --------step into koa---------
+[2017-08-16 11:31:59.337] [INFO] startup - logs config finished!
+[2017-08-16 11:31:59.340] [INFO] app - --------step into koa---------
+[2017-08-16 11:35:17.856] [INFO] startup - logs config finished!
+[2017-08-16 11:35:17.859] [INFO] app - --------step into koa---------
+[2017-08-16 11:36:30.941] [INFO] startup - logs config finished!
+[2017-08-16 11:36:30.944] [INFO] app - --------step into koa---------
+[2017-08-16 11:38:19.429] [INFO] startup - logs config finished!
+[2017-08-16 11:38:19.431] [INFO] app - --------step into koa---------
+[2017-08-16 11:39:26.644] [INFO] startup - logs config finished!
+[2017-08-16 11:39:26.647] [INFO] app - --------step into koa---------
+[2017-08-16 11:39:53.696] [INFO] startup - logs config finished!
+[2017-08-16 11:39:53.699] [INFO] app - --------step into koa---------
+[2017-08-16 11:39:58.540] [INFO] startup - logs config finished!
+[2017-08-16 11:39:58.543] [INFO] app - --------step into koa---------
+[2017-08-16 11:40:29.162] [INFO] startup - logs config finished!
+[2017-08-16 11:40:29.165] [INFO] app - --------step into koa---------
+[2017-08-16 11:41:03.625] [INFO] startup - logs config finished!
+[2017-08-16 11:41:03.628] [INFO] app - --------step into koa---------
+[2017-08-16 11:41:05.964] [INFO] startup - logs config finished!
+[2017-08-16 11:41:05.966] [INFO] app - --------step into koa---------
+[2017-08-16 11:41:14.960] [INFO] startup - logs config finished!
+[2017-08-16 11:41:14.966] [INFO] app - --------step into koa---------
+[2017-08-16 11:41:22.846] [INFO] startup - logs config finished!
+[2017-08-16 11:41:22.855] [INFO] app - --------step into koa---------
+[2017-08-16 11:41:28.076] [INFO] startup - logs config finished!
+[2017-08-16 11:41:28.079] [INFO] app - --------step into koa---------
+[2017-08-16 11:41:32.235] [INFO] startup - logs config finished!
+[2017-08-16 11:41:32.239] [INFO] app - --------step into koa---------
+[2017-08-16 11:41:34.722] [INFO] startup - logs config finished!
+[2017-08-16 11:41:34.726] [INFO] app - --------step into koa---------
+[2017-08-16 11:41:42.471] [INFO] startup - logs config finished!
+[2017-08-16 11:41:42.474] [INFO] app - --------step into koa---------
+[2017-08-16 11:41:45.903] [INFO] startup - logs config finished!
+[2017-08-16 11:41:45.905] [INFO] app - --------step into koa---------
+[2017-08-16 11:42:04.207] [INFO] startup - logs config finished!
+[2017-08-16 11:42:04.209] [INFO] app - --------step into koa---------
+[2017-08-16 11:42:58.926] [INFO] startup - logs config finished!
+[2017-08-16 11:42:58.932] [INFO] app - --------step into koa---------
+[2017-08-16 11:43:06.657] [INFO] startup - logs config finished!
+[2017-08-16 11:43:06.660] [INFO] app - --------step into koa---------
+[2017-08-16 11:43:12.579] [INFO] startup - logs config finished!
+[2017-08-16 11:43:12.581] [INFO] app - --------step into koa---------
+[2017-08-16 11:43:24.826] [INFO] startup - logs config finished!
+[2017-08-16 11:43:24.833] [INFO] app - --------step into koa---------
+[2017-08-16 11:43:51.444] [INFO] startup - logs config finished!
+[2017-08-16 11:43:51.450] [INFO] app - --------step into koa---------
+[2017-08-16 11:44:07.545] [INFO] startup - logs config finished!
+[2017-08-16 11:44:07.548] [INFO] app - --------step into koa---------
+[2017-08-16 11:44:26.904] [INFO] startup - logs config finished!
+[2017-08-16 11:44:26.910] [INFO] app - --------step into koa---------
+[2017-08-16 11:44:32.339] [INFO] startup - logs config finished!
+[2017-08-16 11:44:32.341] [INFO] app - --------step into koa---------
+[2017-08-16 11:44:40.459] [INFO] startup - logs config finished!
+[2017-08-16 11:44:40.461] [INFO] app - --------step into koa---------
+[2017-08-16 11:57:30.851] [INFO] startup - logs config finished!
+[2017-08-16 11:57:30.857] [INFO] app - --------step into koa---------
+[2017-08-16 11:57:32.616] [INFO] startup - logs config finished!
+[2017-08-16 11:57:32.619] [INFO] app - --------step into koa---------
+[2017-08-16 11:57:40.149] [INFO] startup - logs config finished!
+[2017-08-16 11:57:40.152] [INFO] app - --------step into koa---------
+[2017-08-16 11:57:48.653] [INFO] startup - logs config finished!
+[2017-08-16 11:57:48.655] [INFO] app - --------step into koa---------
+[2017-08-16 11:57:59.406] [INFO] startup - logs config finished!
+[2017-08-16 11:57:59.409] [INFO] app - --------step into koa---------
+[2017-08-16 11:58:23.754] [INFO] startup - logs config finished!
+[2017-08-16 11:58:23.757] [INFO] app - --------step into koa---------
+[2017-08-16 11:58:36.962] [INFO] startup - logs config finished!
+[2017-08-16 11:58:36.965] [INFO] app - --------step into koa---------
+[2017-08-16 11:58:40.057] [INFO] startup - logs config finished!
+[2017-08-16 11:58:40.060] [INFO] app - --------step into koa---------
+[2017-08-16 11:58:49.120] [INFO] startup - logs config finished!
+[2017-08-16 11:58:49.122] [INFO] app - --------step into koa---------
+[2017-08-16 11:58:56.522] [INFO] startup - logs config finished!
+[2017-08-16 11:58:56.524] [INFO] app - --------step into koa---------
+[2017-08-16 11:59:10.682] [INFO] startup - logs config finished!
+[2017-08-16 11:59:10.683] [INFO] app - --------step into koa---------
+[2017-08-16 11:59:45.196] [INFO] startup - logs config finished!
+[2017-08-16 11:59:45.198] [INFO] app - --------step into koa---------
+[2017-08-16 11:59:50.949] [INFO] startup - logs config finished!
+[2017-08-16 11:59:50.951] [INFO] app - --------step into koa---------
+[2017-08-16 11:59:54.162] [INFO] startup - logs config finished!
+[2017-08-16 11:59:54.165] [INFO] app - --------step into koa---------
+[2017-08-16 12:00:02.006] [INFO] startup - logs config finished!
+[2017-08-16 12:00:02.008] [INFO] app - --------step into koa---------
+[2017-08-16 12:00:06.312] [INFO] startup - logs config finished!
+[2017-08-16 12:00:06.316] [INFO] app - --------step into koa---------
+[2017-08-16 12:00:23.102] [INFO] startup - logs config finished!
+[2017-08-16 12:00:23.104] [INFO] app - --------step into koa---------
+[2017-08-16 12:00:25.806] [INFO] startup - logs config finished!
+[2017-08-16 12:00:25.811] [INFO] app - --------step into koa---------
+[2017-08-16 12:00:28.400] [INFO] startup - logs config finished!
+[2017-08-16 12:00:28.402] [INFO] app - --------step into koa---------
+[2017-08-16 12:00:34.998] [INFO] startup - logs config finished!
+[2017-08-16 12:00:35.001] [INFO] app - --------step into koa---------
+[2017-08-16 12:00:38.535] [INFO] startup - logs config finished!
+[2017-08-16 12:00:38.538] [INFO] app - --------step into koa---------
+[2017-08-16 12:00:45.373] [INFO] startup - logs config finished!
+[2017-08-16 12:00:45.375] [INFO] app - --------step into koa---------
+[2017-08-16 12:00:57.180] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:00:57.241] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:01:06.767] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 618 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:01:06.823] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 199 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:01:14.034] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:01:14.086] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:01:44.413] [INFO] startup - logs config finished!
+[2017-08-16 12:01:44.416] [INFO] app - --------step into koa---------
+[2017-08-16 12:01:53.816] [INFO] startup - logs config finished!
+[2017-08-16 12:01:53.820] [INFO] app - --------step into koa---------
+[2017-08-16 12:02:54.522] [INFO] startup - logs config finished!
+[2017-08-16 12:02:54.525] [INFO] app - --------step into koa---------
+[2017-08-16 12:02:58.790] [INFO] startup - logs config finished!
+[2017-08-16 12:02:58.793] [INFO] app - --------step into koa---------
+[2017-08-16 12:03:00.987] [INFO] startup - logs config finished!
+[2017-08-16 12:03:00.990] [INFO] app - --------step into koa---------
+[2017-08-16 12:04:04.735] [INFO] startup - logs config finished!
+[2017-08-16 12:04:04.737] [INFO] app - --------step into koa---------
+[2017-08-16 12:05:01.905] [INFO] startup - logs config finished!
+[2017-08-16 12:05:01.908] [INFO] app - --------step into koa---------
+[2017-08-16 12:05:09.903] [INFO] startup - logs config finished!
+[2017-08-16 12:05:09.906] [INFO] app - --------step into koa---------
+[2017-08-16 12:05:11.605] [INFO] startup - logs config finished!
+[2017-08-16 12:05:11.608] [INFO] app - --------step into koa---------
+[2017-08-16 12:05:13.232] [INFO] startup - logs config finished!
+[2017-08-16 12:05:13.234] [INFO] app - --------step into koa---------
+[2017-08-16 12:05:15.702] [INFO] startup - logs config finished!
+[2017-08-16 12:05:15.706] [INFO] app - --------step into koa---------
+[2017-08-16 12:05:18.012] [INFO] startup - logs config finished!
+[2017-08-16 12:05:18.014] [INFO] app - --------step into koa---------
+[2017-08-16 12:07:07.699] [INFO] startup - logs config finished!
+[2017-08-16 12:07:07.701] [INFO] app - --------step into koa---------
+[2017-08-16 12:07:14.145] [INFO] startup - logs config finished!
+[2017-08-16 12:07:14.148] [INFO] app - --------step into koa---------
+[2017-08-16 12:07:25.423] [ERROR] app - TypeError: The header content contains invalid characters
+    at ServerResponse.setHeader (_http_outgoing.js:374:11)
+    at Object.set (/Users/zhukang/project/home_new/server/node_modules/koa/lib/response.js:440:16)
+    at Object.proto.(anonymous function) [as set] (/Users/zhukang/project/home_new/server/node_modules/delegates/index.js:40:31)
+    at allFailed (/Users/zhukang/project/home_new/server/node_modules/passport/lib/middleware/authenticate.js:156:13)
+    at attempt (/Users/zhukang/project/home_new/server/node_modules/passport/lib/middleware/authenticate.js:167:28)
+    at Strategy.strategy.fail (/Users/zhukang/project/home_new/server/node_modules/passport/lib/middleware/authenticate.js:284:9)
+    at verified (/Users/zhukang/project/home_new/server/node_modules/passport-http-bearer/lib/strategy.js:124:19)
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:16:28
+[2017-08-16 12:07:25.434] [ERROR] http - ::1 - - "GET /api/menus/list HTTP/1.1" 401 - "" "PostmanRuntime/6.1.6"
+[2017-08-16 12:07:43.924] [INFO] http - ::1 - - "POST /api/login HTTP/1.1" 200 618 "" "PostmanRuntime/6.1.6"
+[2017-08-16 12:07:56.770] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/menu.js:65:11
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '菜单获取失败', code: 20001 }
+[2017-08-16 12:07:56.771] [INFO] http - ::1 - - "GET /api/menus/list HTTP/1.1" 200 45 "" "PostmanRuntime/6.1.6"
+[2017-08-16 12:08:32.775] [INFO] startup - logs config finished!
+[2017-08-16 12:08:32.777] [INFO] app - --------step into koa---------
+[2017-08-16 12:08:51.400] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/menu.js:66:11
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '菜单获取失败', code: 20001 }
+[2017-08-16 12:08:51.404] [INFO] http - ::1 - - "GET /api/menus/list HTTP/1.1" 200 45 "" "PostmanRuntime/6.1.6"
+[2017-08-16 12:09:49.534] [INFO] startup - logs config finished!
+[2017-08-16 12:09:49.537] [INFO] app - --------step into koa---------
+[2017-08-16 12:09:58.331] [INFO] startup - logs config finished!
+[2017-08-16 12:09:58.334] [INFO] app - --------step into koa---------
+[2017-08-16 12:10:06.201] [INFO] startup - logs config finished!
+[2017-08-16 12:10:06.205] [INFO] app - --------step into koa---------
+[2017-08-16 12:10:08.870] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/menu.js:55:11
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:10:08.876] [INFO] http - ::1 - - "GET /api/menus/list HTTP/1.1" 200 66 "" "PostmanRuntime/6.1.6"
+[2017-08-16 12:10:40.744] [INFO] startup - logs config finished!
+[2017-08-16 12:10:40.747] [INFO] app - --------step into koa---------
+[2017-08-16 12:10:43.978] [INFO] startup - logs config finished!
+[2017-08-16 12:10:43.981] [INFO] app - --------step into koa---------
+[2017-08-16 12:11:17.109] [INFO] startup - logs config finished!
+[2017-08-16 12:11:17.111] [INFO] app - --------step into koa---------
+[2017-08-16 12:11:20.436] [INFO] startup - logs config finished!
+[2017-08-16 12:11:20.439] [INFO] app - --------step into koa---------
+[2017-08-16 12:11:24.034] [INFO] startup - logs config finished!
+[2017-08-16 12:11:24.036] [INFO] app - --------step into koa---------
+[2017-08-16 12:11:26.110] [ERROR] http - ::1 - - "GET /api/menus/list HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-16 12:12:06.562] [INFO] startup - logs config finished!
+[2017-08-16 12:12:06.565] [INFO] app - --------step into koa---------
+[2017-08-16 12:13:41.708] [INFO] startup - logs config finished!
+[2017-08-16 12:13:41.711] [INFO] app - --------step into koa---------
+[2017-08-16 12:13:49.684] [INFO] startup - logs config finished!
+[2017-08-16 12:13:49.687] [INFO] app - --------step into koa---------
+[2017-08-16 12:13:55.189] [INFO] startup - logs config finished!
+[2017-08-16 12:13:55.192] [INFO] app - --------step into koa---------
+[2017-08-16 12:13:57.759] [INFO] startup - logs config finished!
+[2017-08-16 12:13:57.773] [INFO] app - --------step into koa---------
+[2017-08-16 12:14:19.563] [INFO] startup - logs config finished!
+[2017-08-16 12:14:19.565] [INFO] app - --------step into koa---------
+[2017-08-16 12:14:22.724] [INFO] startup - logs config finished!
+[2017-08-16 12:14:22.726] [INFO] app - --------step into koa---------
+[2017-08-16 12:14:43.576] [INFO] startup - logs config finished!
+[2017-08-16 12:14:43.579] [INFO] app - --------step into koa---------
+[2017-08-16 12:14:45.204] [INFO] startup - logs config finished!
+[2017-08-16 12:14:45.206] [INFO] app - --------step into koa---------
+[2017-08-16 12:14:59.181] [INFO] startup - logs config finished!
+[2017-08-16 12:14:59.183] [INFO] app - --------step into koa---------
+[2017-08-16 12:15:01.071] [INFO] startup - logs config finished!
+[2017-08-16 12:15:01.075] [INFO] app - --------step into koa---------
+[2017-08-16 12:15:02.804] [INFO] startup - logs config finished!
+[2017-08-16 12:15:02.806] [INFO] app - --------step into koa---------
+[2017-08-16 12:15:05.950] [INFO] startup - logs config finished!
+[2017-08-16 12:15:05.953] [INFO] app - --------step into koa---------
+[2017-08-16 12:16:29.274] [INFO] startup - logs config finished!
+[2017-08-16 12:16:29.276] [INFO] app - --------step into koa---------
+[2017-08-16 12:16:32.258] [INFO] startup - logs config finished!
+[2017-08-16 12:16:32.260] [INFO] app - --------step into koa---------
+[2017-08-16 12:16:37.130] [INFO] startup - logs config finished!
+[2017-08-16 12:16:37.135] [INFO] app - --------step into koa---------
+[2017-08-16 12:16:42.110] [INFO] startup - logs config finished!
+[2017-08-16 12:16:42.112] [INFO] app - --------step into koa---------
+[2017-08-16 12:16:43.339] [ERROR] http - ::1 - - "GET /api/menus/list HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-16 12:17:01.755] [INFO] startup - logs config finished!
+[2017-08-16 12:17:01.757] [INFO] app - --------step into koa---------
+[2017-08-16 12:17:04.201] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/menu.js:56:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:17:04.208] [INFO] http - ::1 - - "GET /api/menus/list HTTP/1.1" 200 66 "" "PostmanRuntime/6.1.6"
+[2017-08-16 12:17:21.223] [INFO] startup - logs config finished!
+[2017-08-16 12:17:21.225] [INFO] app - --------step into koa---------
+[2017-08-16 12:17:28.636] [INFO] startup - logs config finished!
+[2017-08-16 12:17:28.639] [INFO] app - --------step into koa---------
+[2017-08-16 12:17:31.161] [INFO] startup - logs config finished!
+[2017-08-16 12:17:31.164] [INFO] app - --------step into koa---------
+[2017-08-16 12:17:33.663] [INFO] startup - logs config finished!
+[2017-08-16 12:17:33.666] [INFO] app - --------step into koa---------
+[2017-08-16 12:17:36.004] [INFO] startup - logs config finished!
+[2017-08-16 12:17:36.008] [INFO] app - --------step into koa---------
+[2017-08-16 12:17:42.043] [INFO] startup - logs config finished!
+[2017-08-16 12:17:42.047] [INFO] app - --------step into koa---------
+[2017-08-16 12:17:54.308] [INFO] startup - logs config finished!
+[2017-08-16 12:17:54.311] [INFO] app - --------step into koa---------
+[2017-08-16 12:17:58.938] [INFO] startup - logs config finished!
+[2017-08-16 12:18:00.634] [INFO] startup - logs config finished!
+[2017-08-16 12:18:00.638] [INFO] app - --------step into koa---------
+[2017-08-16 12:18:04.180] [INFO] startup - logs config finished!
+[2017-08-16 12:18:04.183] [INFO] app - --------step into koa---------
+[2017-08-16 12:18:10.247] [INFO] startup - logs config finished!
+[2017-08-16 12:18:10.250] [INFO] app - --------step into koa---------
+[2017-08-16 12:18:12.407] [INFO] startup - logs config finished!
+[2017-08-16 12:18:12.410] [INFO] app - --------step into koa---------
+[2017-08-16 12:18:22.262] [INFO] startup - logs config finished!
+[2017-08-16 12:18:22.264] [INFO] app - --------step into koa---------
+[2017-08-16 12:18:24.066] [INFO] startup - logs config finished!
+[2017-08-16 12:18:24.069] [INFO] app - --------step into koa---------
+[2017-08-16 12:18:27.708] [INFO] startup - logs config finished!
+[2017-08-16 12:18:27.711] [INFO] app - --------step into koa---------
+[2017-08-16 12:18:29.851] [INFO] startup - logs config finished!
+[2017-08-16 12:18:29.853] [INFO] app - --------step into koa---------
+[2017-08-16 12:18:34.026] [INFO] startup - logs config finished!
+[2017-08-16 12:18:34.028] [INFO] app - --------step into koa---------
+[2017-08-16 12:18:46.357] [INFO] startup - logs config finished!
+[2017-08-16 12:18:46.359] [INFO] app - --------step into koa---------
+[2017-08-16 12:18:58.045] [INFO] startup - logs config finished!
+[2017-08-16 12:18:58.048] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:00.724] [INFO] startup - logs config finished!
+[2017-08-16 12:19:00.727] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:05.383] [INFO] startup - logs config finished!
+[2017-08-16 12:19:05.385] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:08.632] [INFO] startup - logs config finished!
+[2017-08-16 12:19:08.636] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:11.476] [INFO] startup - logs config finished!
+[2017-08-16 12:19:11.478] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:14.072] [INFO] startup - logs config finished!
+[2017-08-16 12:19:14.075] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:17.245] [INFO] startup - logs config finished!
+[2017-08-16 12:19:17.248] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:21.758] [INFO] startup - logs config finished!
+[2017-08-16 12:19:21.760] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:24.792] [INFO] startup - logs config finished!
+[2017-08-16 12:19:24.795] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:28.783] [INFO] startup - logs config finished!
+[2017-08-16 12:19:28.786] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:33.695] [INFO] startup - logs config finished!
+[2017-08-16 12:19:33.698] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:38.778] [INFO] startup - logs config finished!
+[2017-08-16 12:19:38.781] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:42.529] [INFO] startup - logs config finished!
+[2017-08-16 12:19:42.531] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:45.768] [INFO] startup - logs config finished!
+[2017-08-16 12:19:45.771] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:48.630] [INFO] startup - logs config finished!
+[2017-08-16 12:19:48.633] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:54.698] [INFO] startup - logs config finished!
+[2017-08-16 12:19:54.702] [INFO] app - --------step into koa---------
+[2017-08-16 12:19:58.707] [INFO] startup - logs config finished!
+[2017-08-16 12:19:58.709] [INFO] app - --------step into koa---------
+[2017-08-16 12:20:00.879] [INFO] startup - logs config finished!
+[2017-08-16 12:20:00.881] [INFO] app - --------step into koa---------
+[2017-08-16 12:20:03.328] [INFO] startup - logs config finished!
+[2017-08-16 12:20:03.330] [INFO] app - --------step into koa---------
+[2017-08-16 12:20:05.808] [INFO] startup - logs config finished!
+[2017-08-16 12:20:05.812] [INFO] app - --------step into koa---------
+[2017-08-16 12:20:08.958] [INFO] startup - logs config finished!
+[2017-08-16 12:20:08.961] [INFO] app - --------step into koa---------
+[2017-08-16 12:20:11.411] [INFO] startup - logs config finished!
+[2017-08-16 12:20:11.415] [INFO] app - --------step into koa---------
+[2017-08-16 12:20:16.223] [INFO] startup - logs config finished!
+[2017-08-16 12:20:16.225] [INFO] app - --------step into koa---------
+[2017-08-16 12:20:17.758] [INFO] startup - logs config finished!
+[2017-08-16 12:20:17.760] [INFO] app - --------step into koa---------
+[2017-08-16 12:20:19.305] [INFO] startup - logs config finished!
+[2017-08-16 12:20:19.307] [INFO] app - --------step into koa---------
+[2017-08-16 12:20:43.537] [INFO] startup - logs config finished!
+[2017-08-16 12:20:43.539] [INFO] app - --------step into koa---------
+[2017-08-16 12:21:26.241] [INFO] startup - logs config finished!
+[2017-08-16 12:21:26.243] [INFO] app - --------step into koa---------
+[2017-08-16 12:21:34.966] [INFO] startup - logs config finished!
+[2017-08-16 12:21:34.970] [INFO] app - --------step into koa---------
+[2017-08-16 12:21:40.684] [INFO] startup - logs config finished!
+[2017-08-16 12:21:40.687] [INFO] app - --------step into koa---------
+[2017-08-16 12:21:44.060] [INFO] startup - logs config finished!
+[2017-08-16 12:21:44.062] [INFO] app - --------step into koa---------
+[2017-08-16 12:22:11.750] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 618 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:11.831] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 199 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:18.465] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:18.496] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:20.673] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:20.676] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:20.763] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 605 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:29.500] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/edit HTTP/1.1" 200 45 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:29.566] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 657 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:38.001] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 670 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:38.068] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 411 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:39.835] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:51.024] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/edit HTTP/1.1" 200 39 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:22:51.093] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 475 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:23:28.010] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:23:28.067] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:23:30.187] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:23:30.203] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:23:30.239] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 657 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:23:46.249] [INFO] startup - logs config finished!
+[2017-08-16 12:23:46.251] [INFO] app - --------step into koa---------
+[2017-08-16 12:24:25.308] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 657 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:24:25.382] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:24:25.393] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:24:35.904] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/edit HTTP/1.1" 200 45 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:24:36.023] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 657 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:04.480] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:04.483] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:04.969] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 657 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:10.413] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/edit HTTP/1.1" 200 45 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:10.491] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 657 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:14.363] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/edit HTTP/1.1" 200 45 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:14.436] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 657 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:23.739] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 671 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:23.792] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 411 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:25.612] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 475 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:30.426] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/edit HTTP/1.1" 200 39 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:30.501] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:25:50.907] [INFO] startup - logs config finished!
+[2017-08-16 12:25:50.910] [INFO] app - --------step into koa---------
+[2017-08-16 12:26:00.205] [INFO] startup - logs config finished!
+[2017-08-16 12:26:00.207] [INFO] app - --------step into koa---------
+[2017-08-16 12:26:02.254] [INFO] startup - logs config finished!
+[2017-08-16 12:26:02.256] [INFO] app - --------step into koa---------
+[2017-08-16 12:26:04.516] [INFO] startup - logs config finished!
+[2017-08-16 12:26:04.523] [INFO] app - --------step into koa---------
+[2017-08-16 12:26:23.716] [INFO] startup - logs config finished!
+[2017-08-16 12:26:23.719] [INFO] app - --------step into koa---------
+[2017-08-16 12:26:30.531] [INFO] startup - logs config finished!
+[2017-08-16 12:26:30.533] [INFO] app - --------step into koa---------
+[2017-08-16 12:26:34.695] [INFO] startup - logs config finished!
+[2017-08-16 12:26:34.697] [INFO] app - --------step into koa---------
+[2017-08-16 12:26:41.410] [INFO] startup - logs config finished!
+[2017-08-16 12:26:41.412] [INFO] app - --------step into koa---------
+[2017-08-16 12:26:44.741] [INFO] startup - logs config finished!
+[2017-08-16 12:26:44.743] [INFO] app - --------step into koa---------
+[2017-08-16 12:26:49.659] [INFO] startup - logs config finished!
+[2017-08-16 12:26:49.661] [INFO] app - --------step into koa---------
+[2017-08-16 12:27:00.595] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 670 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:27:00.680] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 411 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:27:06.225] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:27:06.257] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:27:08.298] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:27:08.312] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:27:08.365] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 657 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:27:17.525] [INFO] startup - logs config finished!
+[2017-08-16 12:27:17.528] [INFO] app - --------step into koa---------
+[2017-08-16 12:27:19.819] [INFO] startup - logs config finished!
+[2017-08-16 12:27:19.822] [INFO] app - --------step into koa---------
+[2017-08-16 12:27:24.712] [INFO] startup - logs config finished!
+[2017-08-16 12:27:24.714] [INFO] app - --------step into koa---------
+[2017-08-16 12:27:27.608] [INFO] startup - logs config finished!
+[2017-08-16 12:27:27.611] [INFO] app - --------step into koa---------
+[2017-08-16 12:27:33.122] [INFO] startup - logs config finished!
+[2017-08-16 12:27:33.125] [INFO] app - --------step into koa---------
+[2017-08-16 12:27:35.410] [INFO] startup - logs config finished!
+[2017-08-16 12:27:35.413] [INFO] app - --------step into koa---------
+[2017-08-16 12:27:43.480] [INFO] startup - logs config finished!
+[2017-08-16 12:27:43.482] [INFO] app - --------step into koa---------
+[2017-08-16 12:27:45.204] [INFO] startup - logs config finished!
+[2017-08-16 12:27:45.207] [INFO] app - --------step into koa---------
+[2017-08-16 12:27:55.455] [INFO] startup - logs config finished!
+[2017-08-16 12:27:55.459] [INFO] app - --------step into koa---------
+[2017-08-16 12:27:58.301] [INFO] startup - logs config finished!
+[2017-08-16 12:27:58.304] [INFO] app - --------step into koa---------
+[2017-08-16 12:28:00.279] [INFO] startup - logs config finished!
+[2017-08-16 12:28:00.281] [INFO] app - --------step into koa---------
+[2017-08-16 12:28:11.029] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 670 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:28:11.099] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 411 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:28:12.830] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:28:17.497] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:94:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:28:17.505] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/edit HTTP/1.1" 200 66 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:28:24.348] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:94:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:28:24.349] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/edit HTTP/1.1" 200 66 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:28:30.701] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:115:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:28:30.707] [INFO] http - ::ffff:127.0.0.1 - - "DELETE /api/account/remove/5992782a1be19b15251440d6 HTTP/1.1" 200 66 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:28:34.633] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:160:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:28:34.637] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/resetpass HTTP/1.1" 200 66 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:28:39.486] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:160:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:28:39.489] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/resetpass HTTP/1.1" 200 66 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:28:45.638] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:160:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:28:45.655] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/resetpass HTTP/1.1" 200 66 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:29:00.015] [INFO] startup - logs config finished!
+[2017-08-16 12:29:00.017] [INFO] app - --------step into koa---------
+[2017-08-16 12:29:02.322] [INFO] startup - logs config finished!
+[2017-08-16 12:29:02.325] [INFO] app - --------step into koa---------
+[2017-08-16 12:29:15.644] [INFO] startup - logs config finished!
+[2017-08-16 12:29:15.646] [INFO] app - --------step into koa---------
+[2017-08-16 12:29:23.983] [INFO] startup - logs config finished!
+[2017-08-16 12:29:23.988] [INFO] app - --------step into koa---------
+[2017-08-16 12:29:25.709] [INFO] startup - logs config finished!
+[2017-08-16 12:29:25.712] [INFO] app - --------step into koa---------
+[2017-08-16 12:29:28.484] [INFO] startup - logs config finished!
+[2017-08-16 12:29:28.490] [INFO] app - --------step into koa---------
+[2017-08-16 12:29:32.238] [INFO] startup - logs config finished!
+[2017-08-16 12:29:32.241] [INFO] app - --------step into koa---------
+[2017-08-16 12:29:38.013] [INFO] startup - logs config finished!
+[2017-08-16 12:29:38.016] [INFO] app - --------step into koa---------
+[2017-08-16 12:29:44.506] [INFO] startup - logs config finished!
+[2017-08-16 12:29:44.508] [INFO] app - --------step into koa---------
+[2017-08-16 12:29:48.296] [INFO] startup - logs config finished!
+[2017-08-16 12:29:48.298] [INFO] app - --------step into koa---------
+[2017-08-16 12:29:53.738] [INFO] startup - logs config finished!
+[2017-08-16 12:29:53.740] [INFO] app - --------step into koa---------
+[2017-08-16 12:29:56.439] [INFO] startup - logs config finished!
+[2017-08-16 12:29:56.441] [INFO] app - --------step into koa---------
+[2017-08-16 12:30:04.398] [INFO] startup - logs config finished!
+[2017-08-16 12:30:04.400] [INFO] app - --------step into koa---------
+[2017-08-16 12:30:10.964] [INFO] startup - logs config finished!
+[2017-08-16 12:30:10.968] [INFO] app - --------step into koa---------
+[2017-08-16 12:30:12.499] [INFO] startup - logs config finished!
+[2017-08-16 12:30:12.501] [INFO] app - --------step into koa---------
+[2017-08-16 12:30:16.089] [INFO] startup - logs config finished!
+[2017-08-16 12:30:16.092] [INFO] app - --------step into koa---------
+[2017-08-16 12:34:36.004] [INFO] startup - logs config finished!
+[2017-08-16 12:34:36.006] [INFO] app - --------step into koa---------
+[2017-08-16 12:34:42.843] [INFO] startup - logs config finished!
+[2017-08-16 12:34:42.846] [INFO] app - --------step into koa---------
+[2017-08-16 12:34:52.496] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:34:52.585] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:34:57.650] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:34:57.656] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:34:57.696] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 657 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:35:14.655] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 670 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:35:14.714] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 411 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:35:16.890] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:35:27.460] [INFO] http - ::ffff:127.0.0.1 - - "PUT /api/account/add HTTP/1.1" 200 39 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:35:27.531] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 628 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:35:32.348] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:115:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:35:32.350] [INFO] http - ::ffff:127.0.0.1 - - "DELETE /api/account/remove/5993cb8fd1e80f4e28f4c4a5 HTTP/1.1" 200 66 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:35:34.652] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:94:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:35:34.653] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/edit HTTP/1.1" 200 66 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:35:36.210] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:94:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:35:36.212] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/edit HTTP/1.1" 200 66 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:35:39.774] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:160:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:35:39.775] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/resetpass HTTP/1.1" 200 66 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:35:42.459] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:160:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:35:42.461] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/resetpass HTTP/1.1" 200 66 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:05.565] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:08.395] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 628 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:14.151] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:137:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:36:14.167] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/batchremove HTTP/1.1" 200 66 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:23.776] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:23.808] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:25.944] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:25.951] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:25.978] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 657 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:30.477] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/edit HTTP/1.1" 200 45 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:30.525] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 675 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:39.813] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 688 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:39.846] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 411 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:41.446] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 628 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:51.547] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/edit HTTP/1.1" 200 39 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:51.607] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 630 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:54.543] [INFO] http - ::ffff:127.0.0.1 - - "DELETE /api/account/remove/5993cb8fd1e80f4e28f4c4a5 HTTP/1.1" 200 39 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:36:54.629] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:37:09.136] [INFO] startup - logs config finished!
+[2017-08-16 12:37:09.138] [INFO] app - --------step into koa---------
+[2017-08-16 12:37:31.525] [INFO] startup - logs config finished!
+[2017-08-16 12:37:31.527] [INFO] app - --------step into koa---------
+[2017-08-16 12:54:41.343] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:54:41.419] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:54:44.915] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:55:03.228] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:55:48.050] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:56:20.155] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:56:37.854] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:57:06.722] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:57:14.169] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:58:55.827] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:59:19.032] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:59:52.390] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:00:30.450] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:15.752] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:23.244] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:31.674] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 688 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:31.712] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 411 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:33.502] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:44.443] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:44.482] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:46.514] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:46.517] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:46.561] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 675 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:50.809] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/edit HTTP/1.1" 200 45 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:50.884] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 648 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:58.432] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 661 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:01:58.463] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 411 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:02:00.136] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:06:58.542] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:06:58.575] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:07:03.121] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:07:03.134] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:07:03.169] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 648 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:07:06.666] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/edit HTTP/1.1" 200 45 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:07:06.727] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 689 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:07:15.807] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 702 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:07:15.839] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 614 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:07:26.674] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:07:29.131] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:07:30.163] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:07:31.458] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:19:57.538] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 1044 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:19:57.577] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:20:01.196] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:20:10.120] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:20:14.294] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:20:14.746] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/department/list HTTP/1.1" 200 26 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:20:14.750] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:20:16.580] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:20:16.582] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:20:18.936] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:20:18.940] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:20:18.990] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 689 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:06.886] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:08.114] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/department/list HTTP/1.1" 200 26 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:08.116] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:10.473] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:10.482] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:12.484] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:12.498] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:12.522] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 689 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:13.666] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:13.667] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:14.935] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/department/list HTTP/1.1" 200 26 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:14.941] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:31.941] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/department/list HTTP/1.1" 200 26 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:31.944] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:38.607] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:38.608] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:39.604] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:39.607] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:39.631] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 689 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:39.931] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:39.936] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:40.477] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:40.478] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/department/list HTTP/1.1" 200 26 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:41.457] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:43.045] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:44.954] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/department/list HTTP/1.1" 200 26 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:44.955] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:46.642] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:46.643] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:47.905] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:47.907] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:47.943] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 689 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:49.260] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:49.262] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:51.417] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/role/list HTTP/1.1" 200 234 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:51.426] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/list HTTP/1.1" 200 1259 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:22:51.460] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 689 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:23:00.779] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/edit HTTP/1.1" 200 45 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:23:00.836] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/permission/list HTTP/1.1" 200 745 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:23:08.408] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 200 758 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:23:08.444] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 200 835 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:23:10.602] [INFO] http - ::ffff:127.0.0.1 - - "POST /api/account/listpage HTTP/1.1" 200 474 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:23:11.616] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/department/list HTTP/1.1" 200 26 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:23:11.629] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/account/list HTTP/1.1" 200 427 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:23:18.953] [INFO] http - ::ffff:127.0.0.1 - - "PUT /api/department/add HTTP/1.1" 200 45 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 13:23:19.020] [INFO] http - ::ffff:127.0.0.1 - - "GET /api/department/list HTTP/1.1" 200 137 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"

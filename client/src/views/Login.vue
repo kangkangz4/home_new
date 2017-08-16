@@ -16,100 +16,100 @@
 </template>
 
 <script>
-  import { requestLogin, getMenusWithPermission } from '../api/api';
-  import { mapGetters, mapActions } from 'vuex';
-  import NProgress from 'nprogress'
+import { requestLogin, getMenusWithPermission } from '../api/api';
+import { mapGetters, mapActions } from 'vuex';
+import NProgress from 'nprogress'
 
-  export default {
-    data() {
-      return {
-        logining: false,
-        loginForm: {
-          username: '13395140855',
-          password: '123456'
-        },
-        loginFormRule: {
-          username: [
-            { required: true, message: '请输入账号', trigger: 'blur' },
-          ],
-          password: [
-            { required: true, message: '请输入密码', trigger: 'blur' },
-          ]
-        },
-        checked: true
-      };
-    },
-    computed: {  
-      ...mapGetters([  
-        'menuitems',  
-        'isLoadRoutes'
-      ])  
-    },
-    methods: {
-      ...mapActions([  
-        'setSession',
-        'setMenu',
-        'loadRoutes'
-      ]),
-      handleReset2() {
-        this.$refs.loginForm.resetFields();
+export default {
+  data() {
+    return {
+      logining: false,
+      loginForm: {
+        username: '13395140855',
+        password: '123456'
       },
-      handleSubmit2(ev) {
-        this.$refs.loginForm.validate((valid) => {
-          if(!valid){
-            this.$message.error('请输入必填项');
-            return;
-          }
-          this.logining = true;
-          const para = Object.assign({}, this.loginForm);
-          requestLogin(para).then(res => {
-            this.logining = false;
-            const result = res.result;
-            this.setSession(result);
-            //获取菜单
-            getMenusWithPermission().then((res) =>{
-              this.setMenu(res.result);
-              // if(!this.isLoadRoutes){
-              this.$router.addRoutes(this.menuitems);
-                // this.loadRoutes();
-              // }
-              this.$router.push({ path: '/'});
-            });
-              // let { access_token, account } = res;
-              // if (!access_token) {
-              //   this.$message({
-              //     message: message,
-              //     type: 'error'
-              //   });
-              //   // this.$notify({  
-              //   //   title: '错误',
-              //   //   message: message,  
-              //   //   type: 'error'  
-              //   // })
-              // } else {
-              //   this.setToken(access_token.token);
-              //   this.setAccount(account);
-              //   // this.$store.commit('setToken', access_token.token);
-              //   // this.$store.commit('setAccount', account);
-              //   // sessionStorage.setItem('token', JSON.stringify(access_token));
-              //   //获取菜单
-              //   getMenus().then(res => {
-              //     this.addMenu(res);
-              //     if (!this.isLoadRoutes){
-              //       this.$router.addRoutes(this.menuitems)
-              //       this.loadRoutes()
-              //     }
-              //     this.$router.push({ path: '/dashboard' });
-              //   })
-              // }
-          }, (error) =>{
-            this.logining = false;
-            this.$message.error(error)
+      loginFormRule: {
+        username: [
+          { required: true, message: '请输入账号', trigger: 'blur' },
+        ],
+        password: [
+          { required: true, message: '请输入密码', trigger: 'blur' },
+        ]
+      },
+      checked: true
+    };
+  },
+  computed: {  
+    ...mapGetters([  
+      'menuitems',  
+      'isLoadRoutes'
+    ])  
+  },
+  methods: {
+    ...mapActions([  
+      'setSession',
+      'setMenu',
+      'loadRoutes'
+    ]),
+    handleReset2() {
+      this.$refs.loginForm.resetFields();
+    },
+    handleSubmit2(ev) {
+      this.$refs.loginForm.validate((valid) => {
+        if(!valid){
+          this.$message.error('请输入必填项');
+          return;
+        }
+        this.logining = true;
+        const para = Object.assign({}, this.loginForm);
+        requestLogin(para).then(res => {
+          this.logining = false;
+          const result = res.result;
+          this.setSession(result);
+          //获取菜单
+          getMenusWithPermission().then((res) =>{
+            this.setMenu(res.result);
+            // if(!this.isLoadRoutes){
+            this.$router.addRoutes(this.menuitems);
+              // this.loadRoutes();
+            // }
+            this.$router.push({ path: '/'});
           });
-        })
-      }
+            // let { access_token, account } = res;
+            // if (!access_token) {
+            //   this.$message({
+            //     message: message,
+            //     type: 'error'
+            //   });
+            //   // this.$notify({  
+            //   //   title: '错误',
+            //   //   message: message,  
+            //   //   type: 'error'  
+            //   // })
+            // } else {
+            //   this.setToken(access_token.token);
+            //   this.setAccount(account);
+            //   // this.$store.commit('setToken', access_token.token);
+            //   // this.$store.commit('setAccount', account);
+            //   // sessionStorage.setItem('token', JSON.stringify(access_token));
+            //   //获取菜单
+            //   getMenus().then(res => {
+            //     this.addMenu(res);
+            //     if (!this.isLoadRoutes){
+            //       this.$router.addRoutes(this.menuitems)
+            //       this.loadRoutes()
+            //     }
+            //     this.$router.push({ path: '/dashboard' });
+            //   })
+            // }
+        }, (error) =>{
+          this.logining = false;
+          this.$message.error(error)
+        });
+      })
     }
   }
+}
 
 </script>
 

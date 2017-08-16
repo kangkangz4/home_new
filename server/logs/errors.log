@@ -1241,3 +1241,103 @@
 [2017-08-15 17:20:59.989] [ERROR] app - ReferenceError: _ is not defined
     at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:27:28
 [2017-08-15 17:21:00.000] [ERROR] http - ::ffff:127.0.0.1 - - "GET /api/menus/listWithPermission HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 10:05:12.682] [ERROR] app - ReferenceError: _ is not defined
+    at /Users/zhukang/project/home_new/server/auth/strategies/local.js:28:28
+[2017-08-16 10:05:12.691] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-16 10:05:52.260] [ERROR] app - ReferenceError: _ is not defined
+    at /Users/zhukang/project/home_new/server/auth/strategies/local.js:29:28
+[2017-08-16 10:05:52.271] [ERROR] http - ::1 - - "POST /api/login HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-16 10:39:43.773] [ERROR] http - ::1 - - "GET /api/menus/listWithPermission HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-16 10:40:23.515] [ERROR] http - ::ffff:127.0.0.1 - - "POST /api/login HTTP/1.1" 404 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+[2017-08-16 12:07:25.423] [ERROR] app - TypeError: The header content contains invalid characters
+    at ServerResponse.setHeader (_http_outgoing.js:374:11)
+    at Object.set (/Users/zhukang/project/home_new/server/node_modules/koa/lib/response.js:440:16)
+    at Object.proto.(anonymous function) [as set] (/Users/zhukang/project/home_new/server/node_modules/delegates/index.js:40:31)
+    at allFailed (/Users/zhukang/project/home_new/server/node_modules/passport/lib/middleware/authenticate.js:156:13)
+    at attempt (/Users/zhukang/project/home_new/server/node_modules/passport/lib/middleware/authenticate.js:167:28)
+    at Strategy.strategy.fail (/Users/zhukang/project/home_new/server/node_modules/passport/lib/middleware/authenticate.js:284:9)
+    at verified (/Users/zhukang/project/home_new/server/node_modules/passport-http-bearer/lib/strategy.js:124:19)
+    at /Users/zhukang/project/home_new/server/auth/strategies/bearer.js:16:28
+[2017-08-16 12:07:25.434] [ERROR] http - ::1 - - "GET /api/menus/list HTTP/1.1" 401 - "" "PostmanRuntime/6.1.6"
+[2017-08-16 12:07:56.770] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/menu.js:65:11
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '菜单获取失败', code: 20001 }
+[2017-08-16 12:08:51.400] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/menu.js:66:11
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '菜单获取失败', code: 20001 }
+[2017-08-16 12:10:08.870] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/menu.js:55:11
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:11:26.110] [ERROR] http - ::1 - - "GET /api/menus/list HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-16 12:16:43.339] [ERROR] http - ::1 - - "GET /api/menus/list HTTP/1.1" 404 - "" "PostmanRuntime/6.1.6"
+[2017-08-16 12:17:04.201] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/menu.js:56:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:28:17.497] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:94:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:28:24.348] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:94:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:28:30.701] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:115:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:28:34.633] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:160:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:28:39.486] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:160:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:28:45.638] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:160:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:35:32.348] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:115:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:35:34.652] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:94:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:35:36.210] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:94:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:35:39.774] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:160:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:35:42.459] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:160:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-16 12:36:14.151] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/account.js:137:12
+    at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }

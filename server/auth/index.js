@@ -35,6 +35,7 @@ export default function auth(){
 	])
 }
 
+//Local认证
 export function isLocalAuthenticated(){
 	return passport.authenticate('local', { session: true });
 }

@@ -18,7 +18,6 @@ export default new BearerStrategy(async(token, done) => {
 			const account = accessToken.account.toObject();
 			account.permissions = [];
 			//查询用户相关角色
-			// const permissions = await Permission.find({'role.accounsts':account._id}).populate('role').exec();
 			const roles_ = await Role.find({accounts:account._id});
 			for (let i = 0; i < roles_.length; i++) {
 				//查询相关角色权限

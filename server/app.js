@@ -38,8 +38,8 @@ app.keys = ['secret','secret1']
 // middlewares
 app.use(convert(session({
   store: redisStore({
-    host: process.env.SESSION_PORT_6379_TCP_ADDR || '127.0.0.1',
-  	port: process.env.SESSION_PORT_6379_TCP_PORT || 6379,
+    host: process.env.REDIS_TCP_ADDR || '127.0.0.1',
+  	port: process.env.REDIS_TCP_PORT || 6379,
   	ttl: 3600,
   })
 })))

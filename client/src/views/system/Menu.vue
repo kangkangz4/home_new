@@ -1,7 +1,7 @@
 <template>
 	<section>
 		<!--工具条-->
-		<el-col :span="24" class="toolbar" style="padding-bottom: 0px;">
+		<el-col :span="24" class="toolbar" style="padding-bottom: 0px;" v-show="canAdd">
 			<el-form :inline="true">
 		    </el-form-item>
 				<el-form-item>
@@ -16,9 +16,9 @@
 			</el-table-column>
 			<el-table-column prop="name" label="菜单名称" width="120">
 			</el-table-column>
-			<el-table-column prop="path" label="路径" min-width="60">
+			<el-table-column prop="path" label="路径" width="120">
 			</el-table-column>
-			<el-table-column prop="componentUrl" label="组件路径" width="180">
+			<el-table-column prop="componentUrl" label="组件路径" width="260">
 			</el-table-column>
 			<el-table-column label="图标" width="100">
 				<template scope="scope">
@@ -27,10 +27,10 @@
 			</el-table-column>
 			<el-table-column prop="order" label="排序" width="90">
 			</el-table-column>
-			<el-table-column label="操作" width="150">
+			<el-table-column label="操作" min-width="150">
 				<template scope="scope">
-					<el-button size="small" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>
-					<el-button type="danger" size="small" @click="handleDel(scope.$index, scope.row)">删除</el-button>
+					<el-button size="small" @click="handleEdit(scope.$index, scope.row)" v-show="canEdit">编辑</el-button>
+					<el-button type="danger" size="small" @click="handleDel(scope.$index, scope.row)" v-show="canDelete">删除</el-button>
 				</template>
 			</el-table-column>
 		</el-table>
@@ -122,12 +122,17 @@
 </template>
 
 <script>
+import util from '../../common/js/util'
 import { mapGetters, mapActions } from 'vuex'
 import { addMenu, editMenu, removeMenu, getMenus } from '../../api/api'
 
 export default {
 	data(){
 		return {
+			canAdd:false,
+			canEdit:false,
+			canDelete:false,
+
 			menus:[],
 			selectMenus: [],
 			listLoading: false,
@@ -173,13 +178,20 @@ export default {
 		}
 	},
 	computed: {  
-    ...mapGetters([ 'menuitems'])
-  },
+    	...mapGetters([ 'menuitems', 'account'])
+  	},
 	methods: {
 		...mapActions([  
-        'setMenu',
-        'loadRoutes'
-     ]),
+        	'setMenu',
+        	'loadRoutes'
+     	]),
+     	//权限
+     	setPermission(){
+     		const permissions = this.account.permissions;
+     		this.canAdd = util.hasPermission(permissions, 'menu', '创建');
+     		this.canEdit = util.hasPermission(permissions, 'menu', '编辑');
+     		this.canDelete = util.hasPermission(permissions, 'menu', '删除');
+     	},
 		//获取父级目录
 		getSelectMenus(){
 			const menus = _.cloneDeep(this.menuitems);
@@ -276,6 +288,7 @@ export default {
 		},
 	},
 	mounted(){
+		this.setPermission();
 		this.menus = this.getMenusList();
 		this.selectMenus = this.getSelectMenus();
 	}

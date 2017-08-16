@@ -57,7 +57,7 @@ export default {
         }
     },
     //返回排序树
-    sortTree:function(array){
+    sortTree(array){
         const temp = _.cloneDeep(array);
         let dist = [];
         _.each(temp, (m)=>{
@@ -80,5 +80,14 @@ export default {
         })
         //返回排序后的树
         return _.sortBy(dist, ['order']);
+    },
+    hasPermission(permissions,modeName,operator){
+        for (let i = 0; i < permissions.length; i++) {
+           const p = permissions[i]
+           if(modeName == p.name && p.permissions.indexOf(operator) != -1){
+            return true;
+           }
+        }
+        return false;
     }
 };

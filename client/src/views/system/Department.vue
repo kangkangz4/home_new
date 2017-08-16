@@ -1,7 +1,7 @@
 <template>
 	<section>
 		<!--工具条-->
-		<el-col :span="24" class="toolbar" style="padding-bottom: 0px;">
+		<el-col :span="24" class="toolbar" style="padding-bottom: 0px;" v-show="canAdd">
 			<el-form :inline="true">
 		    </el-form-item>
 				<el-form-item>
@@ -20,10 +20,10 @@
 			</el-table-column>
 			<el-table-column prop="order" label="排序" width="120">
 			</el-table-column>
-			<el-table-column label="操作" width="150">
+			<el-table-column label="操作" min-width="150">
 				<template scope="scope">
-					<el-button size="small" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>
-					<el-button type="danger" size="small" @click="handleDel(scope.$index, scope.row)">删除</el-button>
+					<el-button size="small" @click="handleEdit(scope.$index, scope.row)" v-show="canEdit">编辑</el-button>
+					<el-button type="danger" size="small" @click="handleDel(scope.$index, scope.row)" v-show="canDelete">删除</el-button>
 				</template>
 			</el-table-column>
 		</el-table>
@@ -111,12 +111,20 @@
 </template>
 
 <script>
-import { listDepartment, addDepartment, editDepartment, removeDepartment, listAccount } from '../../api/api';
-import util from '../../common/js/util';
+import { mapGetters } from 'vuex'
+import { listDepartment, addDepartment, editDepartment, removeDepartment, listAccount } from '../../api/api'
+import util from '../../common/js/util'
 
 export default {
+	computed: {  
+	    ...mapGetters(['account'])
+  	},
 	data(){
 		return {
+			canAdd:false,
+			canEdit:false,
+			canDelete:false,
+
 			allAccounts: [],
 			filterMethod(query, item) {
           		return item.pinyin.indexOf(query) > -1;
@@ -147,6 +155,12 @@ export default {
 		}
 	},
 	methods:{
+		setPermission(){
+			const permissions = this.account.permissions;
+			this.canAdd = util.hasPermission(permissions, 'department', '创建');
+			this.canEdit = util.hasPermission(permissions, 'department', '编辑');
+			this.canDelete = util.hasPermission(permissions, 'department', '删除');
+		},
 		handleChange(value, direction, movedKeys) {
         	console.log(value, direction, movedKeys);
       	},
@@ -252,6 +266,7 @@ export default {
 		}
 	},
 	mounted(){
+		this.setPermission();
 		this.listDepartment();
 		this.listAccount();
 	}

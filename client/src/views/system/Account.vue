@@ -9,7 +9,7 @@
 				<el-form-item>
 					<el-button type="primary" v-on:click="listAccount">查询</el-button>
 				</el-form-item>
-				<el-form-item>
+				<el-form-item v-show="canAdd">
 					<el-button type="primary" @click="handleAdd">新增</el-button>
 				</el-form-item>
 			</el-form>
@@ -29,18 +29,18 @@
 			</el-table-column>
 			<el-table-column prop="sex" label="性别" width="100" :formatter="formatSex" sortable>
 			</el-table-column>
-			<el-table-column label="操作" width="220">
+			<el-table-column label="操作" min-width="220">
 				<template scope="scope">
-					<el-button size="small" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>
-					<el-button type="danger" size="small" @click="handleDel(scope.$index, scope.row)">删除</el-button>
-					<el-button type="info" size="small" @click="handleResetPass(scope.row)">重置密码</el-button>
+					<el-button size="small" @click="handleEdit(scope.$index, scope.row)" v-show="canEdit">编辑</el-button>
+					<el-button type="danger" size="small" @click="handleDel(scope.$index, scope.row)" v-show="canDelete">删除</el-button>
+					<el-button type="info" size="small" @click="handleResetPass(scope.row)" v-show="canResetPass">重置密码</el-button>
 				</template>
 			</el-table-column>
 		</el-table>
 
 		<!--工具条-->
 		<el-col :span="24" class="toolbar">
-			<el-button type="danger" @click="batchRemove" :disabled="this.sels.length===0">批量删除</el-button>
+			<el-button type="danger" @click="batchRemove" :disabled="this.sels.length===0" v-show="canDelete">批量删除</el-button>
 			<el-pagination layout="prev, pager, next" @current-change="handleCurrentChange" :page-size="pagesize" :total="total" style="float:right;">
 			</el-pagination>
 		</el-col>
@@ -180,9 +180,13 @@
 
 <script>
 import util from '../../common/js/util'
+import { mapGetters } from 'vuex';
 import { listPageAccount, removeAccount, editAccount, addAccount, batchRemoveAccount, resetPass } from '../../api/api'
 
 export default {
+	computed: {  
+	    ...mapGetters(['account'])
+  	},
 	data(){
 		var validatePass = (rule, value, callback) => {
 	        if (value === '') {
@@ -197,6 +201,13 @@ export default {
 			filters:{
 				name: ''
 			},
+
+			//根据权限设置相关铵钮是否显示
+			canAdd:false,
+			canEdit:false,
+			canDelete:false,
+			canResetPass:false,
+
 			accounts:[],
 			total: 0,
 			page: 1,
@@ -271,6 +282,13 @@ export default {
 		}
 	},
 	methods: {
+		setPermission(){
+			const permissions = this.account.permissions;
+			this.canAdd = util.hasPermission(permissions, 'account', '创建');
+			this.canEdit = util.hasPermission(permissions, 'account', '编辑');
+			this.canDelete = util.hasPermission(permissions, 'account', '删除');
+			this.canResetPass = this.canEdit;
+		},
 		//性别显示转换
 		formatSex(row, column) {
 			return row.sex == 1 ? '男' : row.sex == 0 ? '女' : '未知';
@@ -439,6 +457,7 @@ export default {
 		},
 	},
 	mounted(){
+		this.setPermission();
 		this.listAccount();
 	}
 }

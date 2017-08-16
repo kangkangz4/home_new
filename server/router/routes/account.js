@@ -1,13 +1,19 @@
 'use strict'
 
-import Account from '../../model/account';
-import { isBearerAuthenticated } from '../../auth';
-import { JsonError } from '../../error';
+import Account from '../../model/account'
+import { isBearerAuthenticated } from '../../auth'
+import { JsonError } from '../../error'
+import { hasPermission } from '../../util'
 
 export default (router => {
 	router
-		.get('/account/list', async (ctx) => {
+		.get('/account/list',isBearerAuthenticated(), async (ctx) => {
 			try{
+				const permissions = ctx.state.user.permissions;
+				if(!hasPermission(permissions, 'account', '查看')){
+					throw new JsonError(20009, '您无操作权限，请联系管理员');
+					return;
+				}
 				const accounts = await Account.find();
 				ctx.body = {
 					code: 10000,
@@ -15,11 +21,19 @@ export default (router => {
 				}
 			}catch(error){
 				console.log(error);
+				if(error instanceof JsonError){
+					throw error;
+				}
 				throw new JsonError(20006, '全部用户查询失败');
 			}
 		})
-		.post('/account/listpage', async (ctx) => {
+		.post('/account/listpage',isBearerAuthenticated(), async (ctx) => {
 			try{
+				const permissions = ctx.state.user.permissions;
+				if(!hasPermission(permissions, 'account', '查看')){
+					throw new JsonError(20009, '您无操作权限，请联系管理员');
+					return;
+				}
 				const {page, pagesize, name} = ctx.request.body;
 				const start = (page-1)*pagesize;
 				let query = {};
@@ -44,11 +58,19 @@ export default (router => {
 				}
 			}catch(error){
 				console.log(error);
+				if(error instanceof JsonError){
+					throw error;
+				}
 				throw new JsonError(20001, '用户查询失败');
 			}
 		})
-		.put('/account/add', async (ctx) => {
+		.put('/account/add',isBearerAuthenticated(), async (ctx) => {
 			try{
+				const permissions = ctx.state.user.permissions;
+				if(!hasPermission(permissions, 'account', '创建')){
+					throw new JsonError(20009, '您无操作权限，请联系管理员');
+					return;
+				}
 				const { mobile, email, name,pinyin, password, age, sex, addr, birth, avatar} = ctx.request.body;
 				await Account.create({
 					mobile, email, name,pinyin, password, age, sex, addr, birth, avatar
@@ -59,11 +81,19 @@ export default (router => {
 				}
 			}catch(error){
 				console.log(error);
+				if(error instanceof JsonError){
+					throw error;
+				}
 				throw new JsonError(20002, '用户创建失败');
 			}
 		})
-		.post('/account/edit', async (ctx) =>{
+		.post('/account/edit',isBearerAuthenticated(), async (ctx) =>{
 			try{
+				const permissions = ctx.state.user.permissions;
+				if(!hasPermission(permissions, 'account', '编辑')){
+					throw new JsonError(20009, '您无操作权限，请联系管理员');
+					return;
+				}
 				const {_id, mobile, name,pinyin, email, age, sex, addr, birth, avatar } = ctx.request.body;
 				await Account.findByIdAndUpdate(_id, {mobile, name,pinyin, email, age, sex, addr, birth, avatar });
 				ctx.body = {
@@ -72,11 +102,19 @@ export default (router => {
 				}
 			}catch(error){
 				console.log(error);
+				if(error instanceof JsonError){
+					throw error;
+				}
 				throw new JsonError(20002, '用户更新失败');
 			}
 		})
-		.delete('/account/remove/:id', async (ctx)=>{
+		.delete('/account/remove/:id',isBearerAuthenticated(), async (ctx)=>{
 			try{
+				const permissions = ctx.state.user.permissions;
+				if(!hasPermission(permissions, 'account', '删除')){
+					throw new JsonError(20009, '您无操作权限，请联系管理员');
+					return;
+				}
 				const _id = ctx.params.id;
 				await Account.findByIdAndRemove(_id);
 				ctx.body = {
@@ -85,12 +123,20 @@ export default (router => {
 				}
 			}catch(error){
 				console.log(error);
+				if(error instanceof JsonError){
+					throw error;
+				}
 				throw new JsonError(20003, '用户删除失败');
 			}
 		})
 		//批量删除
-		.post('/account/batchremove', async (ctx) =>{
+		.post('/account/batchremove',isBearerAuthenticated(), async (ctx) =>{
 			try{
+				const permissions = ctx.state.user.permissions;
+				if(!hasPermission(permissions, 'account', '删除')){
+					throw new JsonError(20009, '您无操作权限，请联系管理员');
+					return;
+				}
 				let { ids } = ctx.request.body;
 				ids = ids.split(',');
 				await Account.remove({ _id: { $in: ids } });
@@ -100,12 +146,20 @@ export default (router => {
 				}
 			}catch(error){
 				console.log(error);
+				if(error instanceof JsonError){
+					throw error;
+				}
 				throw new JsonError(20004, '用户批量删除失败');
 			}
 		})
 		//修改密码
-		.post('/account/resetpass', async (ctx) => {
+		.post('/account/resetpass',isBearerAuthenticated(), async (ctx) => {
 			try{
+				const permissions = ctx.state.user.permissions;
+				if(!hasPermission(permissions, 'account', '编辑')){
+					throw new JsonError(20009, '您无操作权限，请联系管理员');
+					return;
+				}
 				const { _id, password} = ctx.request.body;
 				const account = await Account.findById(_id);
 				account.resetpass(password);
@@ -115,6 +169,9 @@ export default (router => {
 				}
 			}catch(error){
 				console.log(error);
+				if(error instanceof JsonError){
+					throw error;
+				}
 				throw new JsonError(20005, '用户密码修改失败');
 			}
 		})
