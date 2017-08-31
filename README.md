@@ -16,6 +16,11 @@ docker 运行mongodb
 sudo docker run -d -p 27017:27017 -v "$(pwd)"/db:/data/db --name mongodb mongo:latest
 ```
 
+docker 运行redis
+```
+sudo docker run -d -p 6379:6379 --name redis redis:latest
+```
+
 docker运行server
 ```
 sudo docker run -d --name my-node --link mongodb:mongodb -p 3001:3000 my-node
