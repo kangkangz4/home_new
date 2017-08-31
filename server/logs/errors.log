@@ -1341,3 +1341,5 @@
     at dispatch (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
     at next (/Users/zhukang/project/home_new/server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
     at p.then.cont (/Users/zhukang/project/home_new/server/node_modules/koa-passport/lib/framework/koa.js:144:16) message: '您无操作权限，请联系管理员', code: 20009 }
+[2017-08-29 18:57:22.104] [ERROR] app - { Error
+    at /Users/zhukang/project/home_new/server/router/routes/menu.js:114:11 message: '菜单更新失败', code: 20003 }

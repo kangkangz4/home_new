@@ -22,10 +22,11 @@ const menuSchema = mongoose.Schema({
 	},
 	order:Number, //排序
 	isDelete:Boolean,
-	parent:{
-		type: ObjectId,
-		ref: 'Menu'
-	}
+	parent:String,
+	// parent:{
+	// 	type: ObjectId,
+	// 	ref: 'Menu'
+	// }
 }, {
 		versionKey: false,
 		timestamps: {

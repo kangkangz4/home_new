@@ -12,7 +12,7 @@
 
 		<!--列表-->
 		<el-table :data="menus" highlight-current-row v-loading="listLoading" style="width: 100%;">
-			<el-table-column prop="node" label="节点" width="100">
+			<el-table-column prop="node" label="节点" width="80">
 			</el-table-column>
 			<el-table-column prop="name" label="菜单名称" width="120">
 			</el-table-column>
@@ -237,6 +237,9 @@ export default {
 		handleEdit(index, row){
 			this.editFormVisible = true;
 			this.editForm = Object.assign({}, row);
+			if(!this.editForm.parent){
+				this.editForm.parent = '';
+			}
 		},
 		//处理删除
 		handleDel(index, row){
